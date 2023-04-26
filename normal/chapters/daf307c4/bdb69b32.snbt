@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "caba946a",
+		type: "advancement",
+		title: "Book",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:book"
+		},
+		advancement: "",
+		criterion: ""
+	}]
+}
