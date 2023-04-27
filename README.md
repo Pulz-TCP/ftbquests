@@ -1,6 +1,7 @@
 | Quest/mod | Index | Who's working on it? |
 | ------------- | ------------- | ------------- |
 | IndustrialCraft 2 | afda2c56 | [@Pulz-TCP](https://github.com/Pulz-TCP) |
+| Botania | daf307c4 | [@radioactivsnake](https://github.com/radioactivsnake) |
 
 <br>
 
