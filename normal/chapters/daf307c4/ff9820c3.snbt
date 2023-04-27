@@ -1,0 +1,22 @@
+{
+	title: "Living Rock",
+	x: 8.0d,
+	y: 3.5d,
+	description: "Make Some Living Rock.",
+	text: [
+		"Place Stone around the pure daisy to create Living Rock."
+	],
+	dependencies: [
+		"a32c47ab"
+	],
+	tasks: [{
+		uid: "40e6d2a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingrock"
+		}]
+	}]
+}

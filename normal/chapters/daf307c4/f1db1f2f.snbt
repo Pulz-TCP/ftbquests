@@ -1,0 +1,60 @@
+{
+	title: "ManaSteel Tools",
+	x: 11.5d,
+	y: 3.5d,
+	description: "Magic Tools!",
+	text: [
+		"All mana tools will use mana instead of durability. if you have stored mana in your inventory your tools will never degrade, saving you a ton of iron and diamonds!"
+	],
+	dependencies: [
+		"5684f3a4"
+	],
+	tasks: [{
+		uid: "2b566b34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manasteelsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d96f029a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manasteelpick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "899d82d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manasteelshovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1b58347",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manasteelaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

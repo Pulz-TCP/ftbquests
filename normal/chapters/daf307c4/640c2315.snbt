@@ -1,0 +1,27 @@
+{
+	title: "Wand Of The Forest",
+	x: 7.0d,
+	y: 2.0d,
+	description: "Controlling Your Flowers And Blocks!",
+	text: [
+		"The wand allows you to bind Flowers to spreaders and bind spreaders to mana pools. For a more in Depth guide refer to the lexicon!"
+	],
+	dependencies: [
+		"9f9370a4"
+	],
+	tasks: [{
+		uid: "71f5b891",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}
