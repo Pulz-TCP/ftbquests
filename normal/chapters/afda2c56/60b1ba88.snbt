@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	dependencies: [
+		"4672b6e5"
+	],
+	tasks: [{
+		uid: "4cb30f67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:plate",
+			Damage: 1s
+		}]
+	}]
+}

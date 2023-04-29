@@ -1,0 +1,36 @@
+{
+	title: "IC2 Spelunking Reward",
+	loot_size: 1,
+	rewards: [{
+		title: "x10 Copper Ingot",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 128s
+		},
+		count: 10
+	},
+	{
+		title: "x10 Iron Ingot",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		},
+		count: 10
+	},
+	{
+		title: "x10 Tin Ingot",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 129s
+		},
+		count: 10
+	}]
+}

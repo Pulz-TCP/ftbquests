@@ -1,14 +1,18 @@
 {
-	x: 0.0d,
-	y: 0.0d,
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"e112f63d"
+	],
 	tasks: [{
-		uid: "4b051fc9",
+		uid: "d3c4fd4d",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "minecraft:stone"
+			id: "ic2:crafting",
+			Damage: 1s
 		}]
 	}]
 }

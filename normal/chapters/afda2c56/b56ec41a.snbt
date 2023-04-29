@@ -1,0 +1,52 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	dependencies: [
+		"9eec86d4"
+	],
+	tasks: [{
+		uid: "20c0602c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		}],
+		count: 3L
+	},
+	{
+		uid: "bb80b07e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cobblestone"
+		}],
+		count: 2L
+	},
+	{
+		uid: "179db469",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:resource",
+			Damage: 12s
+		}]
+	},
+	{
+		uid: "d7a2de9d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:crafting",
+			Damage: 1s
+		}]
+	}]
+}
