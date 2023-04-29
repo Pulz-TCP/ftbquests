@@ -1,0 +1,31 @@
+{
+	title: "Naked Cables!",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Do no touch or lick these cables..",
+	text: [
+		"One Copper Sheet can be cut into two Copper Cables.",
+		"",
+		"Keep in mind, this is an uninsulated cable and will hurt you if you walk into one whilst power runs through it."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cf139ae6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c6ab21f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 0b
+			}
+		}],
+		count: 6L
+	}]
+}

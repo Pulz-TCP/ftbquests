@@ -1,0 +1,16 @@
+{
+	title: "Next steps: Macerator",
+	x: 9.0d,
+	y: 0.0d,
+	description: "Click to begin 'Making a Macerator' tasks",
+	text: [
+		""
+	],
+	dependencies: [
+		"01efc5eb"
+	],
+	tasks: [{
+		uid: "88d464d8",
+		type: "checkmark"
+	}]
+}

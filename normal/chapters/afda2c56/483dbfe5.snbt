@@ -1,0 +1,26 @@
+{
+	title: "Rubber Boots",
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"Rubber Boots are part of the Hazmat Suit set, which you will want later on into your IC2 journey.",
+		"",
+		"For now though, having some Rubber Boots is great for travelling as they reduce fall damage."
+	],
+	dependencies: [
+		"53bee994"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c550e378",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:rubber_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
