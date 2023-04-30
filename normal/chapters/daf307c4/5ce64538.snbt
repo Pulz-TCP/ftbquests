@@ -1,0 +1,34 @@
+{
+	title: "Making your First Runes!",
+	x: 7.0d,
+	y: 8.0d,
+	description: "Earth and Air",
+	text: [
+		"We are going to use these two runes to make your first bauble!"
+	],
+	dependencies: [
+		"6eda3642"
+	],
+	tasks: [{
+		uid: "0373ebac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:rune",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "135733bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:rune",
+			Damage: 3s
+		}]
+	}]
+}
