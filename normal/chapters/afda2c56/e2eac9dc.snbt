@@ -1,6 +1,11 @@
 {
+	title: "Next Steps: Macerator",
 	x: 9.0d,
 	y: 2.5d,
+	description: "Click to begin 'Making a Macerator' tasks",
+	text: [
+		""
+	],
 	dependencies: [
 		"94a92590"
 	],

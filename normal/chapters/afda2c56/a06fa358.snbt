@@ -1,6 +1,9 @@
 {
 	x: 6.0d,
 	y: 2.5d,
+	text: [
+		"An RE-Battery can store IC2's 'EU' energy. "
+	],
 	dependencies: [
 		"578d4408"
 	],

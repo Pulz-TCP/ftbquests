@@ -1,7 +1,13 @@
 {
+	title: "Your first Generator",
 	x: 7.5d,
 	y: 2.5d,
 	shape: "hexagon",
+	text: [
+		"The Generator is your first, early game method of generating power for IC2 machines.",
+		"",
+		"It runs on fuel items such as coal, but other fuel items like Lava Buckets can also be used."
+	],
 	dependencies: [
 		"a06fa358"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "Next steps: Macerator",
+	title: "Next steps: Generator",
 	x: 9.0d,
 	y: 0.0d,
-	description: "Click to begin 'Making a Macerator' tasks",
+	description: "Click to begin 'Making a Generator' tasks",
 	text: [
 		""
 	],
