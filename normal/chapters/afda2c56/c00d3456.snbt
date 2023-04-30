@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"cf139ae6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6323e500",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:plate",
+			Damage: 8s
+		}],
+		count: 2L
+	}]
+}

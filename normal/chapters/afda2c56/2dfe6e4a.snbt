@@ -1,7 +1,7 @@
 {
 	title: "Naked Cables!",
 	x: 0.0d,
-	y: 2.0d,
+	y: 5.5d,
 	description: "Do no touch or lick these cables..",
 	text: [
 		"One Copper Sheet can be cut into two Copper Cables.",
@@ -10,7 +10,7 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"cf139ae6"
+		"e2eac9dc"
 	],
 	hide: true,
 	tasks: [{
