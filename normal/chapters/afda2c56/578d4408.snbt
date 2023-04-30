@@ -1,18 +1,22 @@
 {
 	x: 4.5d,
-	y: 5.5d,
+	y: 2.5d,
 	dependencies: [
-		"d9010d5b"
+		"a929cc31"
 	],
 	tasks: [{
-		uid: "b0ca0f4e",
+		uid: "a6512114",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			},
-			id: "ic2:resource",
-			Damage: 12s
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 1b
+			},
+			Damage: 4s
 		}]
 	}]
 }

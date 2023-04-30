@@ -1,0 +1,30 @@
+{
+	x: 7.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"a06fa358"
+	],
+	tasks: [{
+		uid: "659dd1be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "23f3bb53",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal"
+		},
+		count: 16
+	}]
+}
