@@ -1,6 +1,10 @@
 {
+	title: "Hammer Time",
 	x: 6.0d,
 	y: 0.0d,
+	text: [
+		"A Forge Hammer can turn ingots into Plates and turn Plates into Item Casings"
+	],
 	dependencies: [
 		"8ee5c8a1"
 	],
