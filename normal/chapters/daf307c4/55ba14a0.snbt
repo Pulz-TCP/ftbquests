@@ -1,0 +1,12 @@
+{
+	x: 10.0d,
+	y: 8.0d,
+	dependencies: [
+		"7a3bfc58"
+	],
+	tasks: [{
+		uid: "72fd764c",
+		type: "checkmark",
+		title: "Check out the 'Baubles' tab in the lexicon"
+	}]
+}
