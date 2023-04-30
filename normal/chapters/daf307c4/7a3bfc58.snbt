@@ -4,7 +4,7 @@
 	y: 8.0d,
 	description: "Your First Bauble",
 	text: [
-		"Botania ha many diffrent types of baubles. each one has a diffrent effect. This sash will allow you to walk up blocks automaticly without jumping and also move a a faster speed!"
+		"Botania has many diffrent types of baubles; each one has a diffrent effect. This sash will allow you to walk up blocks automatically without jumping and also move at a faster speed!"
 	],
 	dependencies: [
 		"5ce64538"
