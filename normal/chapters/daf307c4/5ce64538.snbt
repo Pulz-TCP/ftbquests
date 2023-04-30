@@ -4,7 +4,7 @@
 	y: 8.0d,
 	description: "Earth and Air",
 	text: [
-		"We are going to use these two rune to make your first bauble!"
+		"We are going to use these two runes to make your first bauble!"
 	],
 	dependencies: [
 		"6eda3642"
