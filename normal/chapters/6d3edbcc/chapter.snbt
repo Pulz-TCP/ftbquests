@@ -1,0 +1,13 @@
+{
+	title: "Thermal Series",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 295s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
