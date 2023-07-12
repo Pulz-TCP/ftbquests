@@ -2,7 +2,7 @@
 | ------------- | ------------- | ------------- |
 | IndustrialCraft 2 | afda2c56 | [@Pulz-TCP](https://github.com/Pulz-TCP) |
 | Botania | daf307c4 | [@radioactivsnake](https://github.com/radioactivsnake) |
-| Thermal Series | 6d3edbcc | [@radioactivsnake](https://github.com/radioactivsnake) |
+| Thermal Series | 6d3edbcc | [@conkCreets](https://github.com/conkCreets) |
 
 <br>
 
