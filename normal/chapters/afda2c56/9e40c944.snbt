@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 7.5d,
+	description: "12.5% faster, uses power rather than Fuel",
+	text: [
+		""
+	],
+	dependencies: [
+		"f2233cf9"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "285e8267",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 44s
+		}]
+	}]
+}

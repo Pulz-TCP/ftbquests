@@ -1,0 +1,24 @@
+{
+	title: "The Metal Former",
+	x: 2.0d,
+	y: 4.0d,
+	description: "Tired of Cutters + Forge Hammers?",
+	text: [
+		"The Metal Former is a machine that can automate hammering/cutting of plates/cables, rather than constantly having to make new Cutters or Forge Hammers."
+	],
+	dependencies: [
+		"ff1cee3a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b167f2ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 55s
+		}]
+	}]
+}

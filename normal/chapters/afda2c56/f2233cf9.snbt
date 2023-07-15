@@ -1,0 +1,26 @@
+{
+	title: "Iron Furnace",
+	x: 1.5d,
+	y: 8.5d,
+	text: [
+		"An Iron Furnace is a straight upgrade to the vanilla Furnace.",
+		"",
+		"It still uses Fuel, but does so more efficiently and smelts faster.",
+		"",
+		"You can use this to create an Electric Furnace - which is 12.5% faster than the Iron Furnace and uses energy rather than fuel!"
+	],
+	dependencies: [
+		"585e62d2"
+	],
+	tasks: [{
+		uid: "0eb900a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 46s
+		}]
+	}]
+}

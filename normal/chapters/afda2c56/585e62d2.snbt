@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: 8.5d,
+	description: "Output: 32 EU/t, Capacity: 40000 EU",
+	text: [
+		"This is an EU storage block that acts as a buffer.",
+		"It fills up with excess EU and outputs to the rest of the E-net as required.",
+		"",
+		"",
+		"IMPORTANT: The dot is the output side, it faces towards you when you place it.",
+		"",
+		"Reorient - Right click with a wrench on the side you want to be the output.",
+		"",
+		"Remove - To pick this up, shift-wrench the output side or the opposite side to the output.",
+		"These kind of blocks only retain 80% of their EU when picked up."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a43d562b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0ecdc3f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			tag: {},
+			Damage: 72s
+		}]
+	}]
+}

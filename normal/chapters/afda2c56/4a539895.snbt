@@ -1,0 +1,27 @@
+{
+	title: "Extractor (rubber)",
+	x: 3.0d,
+	y: 8.5d,
+	text: [
+		"An IC2 Extractor can help increase your Rubber output.",
+		"",
+		"It is a powered machine that takes resin and creates rubber at a 1:3 ratio.",
+		"",
+		"It can later be upgraded into a Centrifuge Extractor, which slowly builds up speed the longer it is in use - which increases the speed it outputs Rubber."
+	],
+	dependencies: [
+		"f2233cf9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ca92ec8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 45s
+		}]
+	}]
+}

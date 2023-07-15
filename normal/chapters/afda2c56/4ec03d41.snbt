@@ -1,0 +1,39 @@
+{
+	title: "Tool Box",
+	x: 5.0d,
+	y: 4.0d,
+	text: [
+		"A Tool Box acts as a portable container, where you can store spare cables and tools etc.",
+		"It has a 9 slot inventory.",
+		"",
+		"It is also used to craft the Metal Former, to automate Hammering/Cutting."
+	],
+	dependencies: [
+		"ac5b0187"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e6fb3695",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:tool_box"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c53687a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:tool_box"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

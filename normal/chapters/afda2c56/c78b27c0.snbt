@@ -1,0 +1,15 @@
+{
+	title: "Extra Power Sources",
+	x: 4.5d,
+	y: 8.5d,
+	text: [
+		"We can now have a quick look at some alternative power generation methods."
+	],
+	dependencies: [
+		"4a539895"
+	],
+	tasks: [{
+		uid: "ac0be7ce",
+		type: "checkmark"
+	}]
+}

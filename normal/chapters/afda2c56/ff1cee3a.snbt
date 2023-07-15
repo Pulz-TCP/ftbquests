@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 4.0d,
+	dependencies: [
+		"4ec03d41"
+	],
+	optional: true,
+	tasks: [{
+		uid: "85cec242",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:crafting",
+			Damage: 5s
+		}],
+		count: 3L
+	}]
+}
