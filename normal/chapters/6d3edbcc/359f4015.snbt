@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 1.5d,
+	description: "Oooooo somewhat shiny!",
+	dependencies: [
+		"1f259d6c"
+	],
+	tasks: [{
+		uid: "edbd49b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 258s
+		}]
+	}]
+}

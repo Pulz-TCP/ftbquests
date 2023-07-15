@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	description: "Ooooo shiny!",
+	dependencies: [
+		"359f4015"
+	],
+	tasks: [{
+		uid: "170a4bad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 25s
+		}]
+	}]
+}
