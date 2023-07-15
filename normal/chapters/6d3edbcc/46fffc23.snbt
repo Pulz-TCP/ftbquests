@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "Used in many factory blocks",
+	dependencies: [
+		"9b080346"
+	],
+	tasks: [{
+		uid: "454c45f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 256s
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	dependencies: [
+		"f993b888"
+	],
+	tasks: [{
+		uid: "75da577a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 32s
+		}]
+	}]
+}

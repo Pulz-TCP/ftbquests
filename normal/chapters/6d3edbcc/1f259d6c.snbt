@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 1.5d,
+	description: "A hardworking piece of metal",
+	dependencies: [
+		"77ffb4c7"
+	],
+	tasks: [{
+		uid: "a21c7f62",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 288s
+		}]
+	}]
+}
