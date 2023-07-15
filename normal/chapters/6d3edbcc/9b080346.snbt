@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	description: "Working metal from metal working",
+	dependencies: [
+		"79290463"
+	],
+	tasks: [{
+		uid: "863f3185",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 257s
+		}]
+	}]
+}

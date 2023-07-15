@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	description: "Not as useful, but stronger than copper and tin!",
+	dependencies: [
+		"46fffc23"
+	],
+	tasks: [{
+		uid: "a8b4b7b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 291s
+		}]
+	}]
+}

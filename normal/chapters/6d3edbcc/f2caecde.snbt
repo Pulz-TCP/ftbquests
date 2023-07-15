@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 0.0d,
+	description: "New upgrade unlocked",
+	dependencies: [
+		"9f0b164d"
+	],
+	tasks: [{
+		uid: "bdc1da6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 290s
+		}]
+	}]
+}
