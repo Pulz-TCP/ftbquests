@@ -1,7 +1,7 @@
 {
 	x: 6.5d,
 	y: 2.5d,
-	description: "Alchemical Chest, 4 Diamonds and 4 Obsiden",
+	description: "Alchemical Chest, 4 Diamonds and 4 Obsidian",
 	text: [
 		""
 	],

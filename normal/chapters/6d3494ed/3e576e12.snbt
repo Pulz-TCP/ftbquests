@@ -4,8 +4,8 @@
 	shape: "square",
 	text: [
 		"Suround an Energy Condenser MK1/2 with Anti-Matter Realys MK1/2/3 on all sides.",
-		"Surroned the Anti-Matter Realys with Energy Condensers Mk1/2/3.",
-		"Place your choicen item you want alot of in the top box."
+		"Surround the Anti-Matter Realys with Energy Condensers Mk1/2/3.",
+		"Place the item you wish to duplicate in the top left box."
 	],
 	tasks: [{
 		uid: "aa2c4309",

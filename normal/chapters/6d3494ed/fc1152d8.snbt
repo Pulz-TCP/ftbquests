@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: 1.0d,
 	shape: "hexagon",
-	description: "4 Stone, 4 Dark Matter Blocks and a EMC Table",
+	description: "4 Stone, 4 Dark Matter Blocks and an EMC Table",
 	text: [
 		""
 	],
