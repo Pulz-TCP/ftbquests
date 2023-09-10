@@ -1,0 +1,22 @@
+{
+	x: 22.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"d0915213",
+		"170ee3cc"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "a849e0ea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_life_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 7.0d,
+	shape: "hexagon",
+	dependencies: [
+		"2fdce5d6"
+	],
+	tasks: [{
+		uid: "307ac3a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_divining_rod_3",
+			tag: {}
+		}]
+	}]
+}

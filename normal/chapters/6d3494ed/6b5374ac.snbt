@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "d2fa559a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:fuel_block",
+			Damage: 1s
+		}],
+		count: 64L
+	}]
+}

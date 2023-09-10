@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: -5.5d,
+	dependencies: [
+		"d6bd10df"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b1cfbda8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_klein_star",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

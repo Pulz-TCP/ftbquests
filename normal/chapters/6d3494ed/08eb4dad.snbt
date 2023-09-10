@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "75eb09e6",
+		type: "emc",
+		value: 1000000L
+	}],
+	rewards: [{
+		uid: "e5affe95",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: 2.5d,
+	description: "Alchemical Chest, 4 Diamonds and 4 Obsiden",
+	text: [
+		""
+	],
+	dependencies: [
+		"a0fe762f"
+	],
+	tasks: [{
+		uid: "e2de8cb9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:condenser_mk1"
+		}]
+	}]
+}
