@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	dependencies: [
+		"86803044",
+		"0a97259d"
+	],
+	tasks: [{
+		uid: "c072a92a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:dm_furnace"
+		}]
+	}]
+}

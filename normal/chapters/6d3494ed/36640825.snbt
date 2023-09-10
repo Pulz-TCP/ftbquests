@@ -1,0 +1,21 @@
+{
+	x: 18.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"86803044"
+	],
+	tasks: [{
+		uid: "5caea1a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_time_watch",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

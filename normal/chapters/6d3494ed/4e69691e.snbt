@@ -1,0 +1,20 @@
+{
+	x: 11.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"86803044"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9a679e21",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_matter",
+			Damage: 1s
+		}]
+	}]
+}

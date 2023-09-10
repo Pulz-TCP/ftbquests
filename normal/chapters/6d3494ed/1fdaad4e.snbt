@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	dependencies: [
+		"302c1aa8",
+		"4e69691e"
+	],
+	tasks: [{
+		uid: "2ddf6440",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:collector_mk3"
+		}]
+	}]
+}

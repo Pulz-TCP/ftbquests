@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	description: "4 Stone, 4 Obsiden and a Philosphers Stone",
+	text: [
+		""
+	],
+	dependencies: [
+		"86803044",
+		"09e54e73"
+	],
+	tasks: [{
+		uid: "e2bd663a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "34f61ca4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		count: 3
+	}]
+}

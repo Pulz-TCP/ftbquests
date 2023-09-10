@@ -1,0 +1,18 @@
+{
+	x: 9.0d,
+	y: 6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"09e54e73"
+	],
+	tasks: [{
+		uid: "7efaf713",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:interdiction_torch"
+		}]
+	}]
+}

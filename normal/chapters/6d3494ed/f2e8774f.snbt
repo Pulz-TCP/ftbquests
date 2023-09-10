@@ -1,0 +1,23 @@
+{
+	x: 14.5d,
+	y: 7.0d,
+	shape: "hexagon",
+	dependencies: [
+		"b74f484f",
+		"63739339"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3b78e11e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_hyperkinetic_lens",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

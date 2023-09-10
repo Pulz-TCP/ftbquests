@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "b2fa9dac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:rm_furnace"
+		}],
+		count: 64L
+	}]
+}

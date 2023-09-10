@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"3583dfd6"
+	],
+	tasks: [{
+		uid: "5cff86ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:collector_mk1"
+		}]
+	}]
+}

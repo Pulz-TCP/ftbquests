@@ -1,0 +1,19 @@
+{
+	x: 14.5d,
+	y: 2.5d,
+	dependencies: [
+		"c87e22e0"
+	],
+	tasks: [{
+		uid: "5c928056",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_harvest_god"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
