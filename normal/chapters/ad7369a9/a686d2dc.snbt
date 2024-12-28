@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 8.0d,
+	dependencies: [
+		"c13f24e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4e26367f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:corporeacrystalcube"
+		}]
+	}]
+}

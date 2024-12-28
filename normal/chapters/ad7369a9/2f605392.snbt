@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 8.0d,
+	dependencies: [
+		"bc1a5c42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c56f5431",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:forestdrum",
+			Damage: 1s
+		}]
+	}]
+}

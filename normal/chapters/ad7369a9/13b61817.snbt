@@ -1,0 +1,21 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	dependencies: [
+		"86d7e739"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22b6bd25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

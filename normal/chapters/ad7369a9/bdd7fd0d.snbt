@@ -1,0 +1,22 @@
+{
+	x: 14.0d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"cea1f1b6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f542a25f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "heiseiDream"
+			}
+		}]
+	}]
+}

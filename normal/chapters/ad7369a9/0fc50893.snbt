@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: -1.0d,
+	dependencies: [
+		"091b9c37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7a06a9b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "bellethorn"
+			}
+		}]
+	}]
+}

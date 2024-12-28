@@ -1,0 +1,23 @@
+{
+	x: 12.5d,
+	y: 8.0d,
+	dependencies: [
+		"3b030967"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5efaea1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:thorring",
+			tag: {
+				soulbindUUID: "3791b4f3-8b93-4148-9b85-237eb5b1153e"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

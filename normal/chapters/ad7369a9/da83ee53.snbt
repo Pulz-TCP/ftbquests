@@ -1,0 +1,18 @@
+{
+	x: 17.0d,
+	y: 1.5d,
+	dependencies: [
+		"d0642079"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e26354a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:bellows"
+		}]
+	}]
+}

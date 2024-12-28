@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: 12.0d,
+	dependencies: [
+		"8ec3b6ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3aeeea1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:bifrostperm"
+		}]
+	}]
+}

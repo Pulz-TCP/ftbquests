@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 10.0d,
+	dependencies: [
+		"bc1a5c42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0bb1f2db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:openbucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

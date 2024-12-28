@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	dependencies: [
+		"df51f407"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5b4d5a85",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: [],
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:baublebox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

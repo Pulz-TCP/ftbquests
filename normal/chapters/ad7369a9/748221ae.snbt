@@ -1,0 +1,21 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	dependencies: [
+		"091b9c37",
+		"df51f407"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d3ae1d3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:lens",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

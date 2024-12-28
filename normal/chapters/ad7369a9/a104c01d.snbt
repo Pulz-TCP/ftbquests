@@ -1,0 +1,71 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "botania:alfheimportal"
+	},
+	x: 8.0d,
+	y: 4.5d,
+	dependencies: [
+		"211f7511"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e791b556",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "ab47212f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingwood",
+			Damage: 5s
+		}],
+		count: 3L
+	},
+	{
+		uid: "4f78b6c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "6ea306db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pool"
+		}],
+		count: 2L,
+		consume_items: false
+	},
+	{
+		uid: "08676945",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pylon",
+			Damage: 1s
+		}],
+		count: 2L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 15.5d,
+	y: 6.5d,
+	dependencies: [
+		"c0db9691"
+	],
+	hide: true,
+	tasks: [{
+		uid: "88bc8498",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:astrolabe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

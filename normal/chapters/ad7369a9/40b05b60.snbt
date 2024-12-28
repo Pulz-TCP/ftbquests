@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	dependencies: [
+		"017dd9ff"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "4efb7cef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:altar"
+		}]
+	}]
+}

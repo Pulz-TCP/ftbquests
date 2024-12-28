@@ -1,0 +1,24 @@
+{
+	x: 8.5d,
+	y: 3.5d,
+	dependencies: [
+		"a104c01d"
+	],
+	tasks: [{
+		uid: "7dfd7ebd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1b,
+				knowledge.alfheim: 1b,
+				knowledge.relic: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

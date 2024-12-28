@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 8.0d,
+	dependencies: [
+		"bc1a5c42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dda984bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:thornchakram",
+			Damage: 1s
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	dependencies: [
+		"9c835ab3",
+		"eb9d8588",
+		"df51f407",
+		"86d7e739",
+		"933e65b9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca831080",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 4s
+		}]
+	}]
+}

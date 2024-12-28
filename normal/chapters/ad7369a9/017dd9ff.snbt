@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	dependencies: [
+		"98e5f50b"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "753f444d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: [],
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:flowerbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	dependencies: [
+		"4447f43e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9912b66a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingrock"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a728b052"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a06e489c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:lightrelay"
+		}]
+	}]
+}

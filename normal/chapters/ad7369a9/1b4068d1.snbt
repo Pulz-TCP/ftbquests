@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 8.0d,
+	dependencies: [
+		"d502a212"
+	],
+	hide: true,
+	tasks: [{
+		uid: "77d43d76",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:sparkupgrade",
+			Damage: 2s
+		}]
+	}]
+}

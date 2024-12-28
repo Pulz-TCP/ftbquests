@@ -1,0 +1,20 @@
+{
+	x: 13.0d,
+	y: 2.5d,
+	dependencies: [
+		"d0642079"
+	],
+	hide: true,
+	tasks: [{
+		uid: "96c9f47b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:firerod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

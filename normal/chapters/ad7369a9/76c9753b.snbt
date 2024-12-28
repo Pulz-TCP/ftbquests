@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: 7.0d,
+	dependencies: [
+		"c13f24e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8fe5b84a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:corporeafunnel"
+		}]
+	}]
+}

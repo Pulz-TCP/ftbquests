@@ -1,0 +1,20 @@
+{
+	x: 14.5d,
+	y: 5.5d,
+	dependencies: [
+		"c0db9691"
+	],
+	hide: true,
+	tasks: [{
+		uid: "29a7e6f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:supertravelbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 5.5d,
+	dependencies: [
+		"211f7511"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c2dab167",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:magnetringgreater",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

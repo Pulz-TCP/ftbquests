@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "b9c60a05",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:cacophonium",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

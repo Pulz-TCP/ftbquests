@@ -1,0 +1,18 @@
+{
+	x: 3.5d,
+	y: 5.5d,
+	dependencies: [
+		"211f7511"
+	],
+	hide: true,
+	tasks: [{
+		uid: "072dd851",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:thornchakram"
+		}]
+	}]
+}

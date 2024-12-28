@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "be2c9d75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

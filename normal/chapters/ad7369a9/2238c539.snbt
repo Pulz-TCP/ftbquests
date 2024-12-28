@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 9.0d,
+	dependencies: [
+		"c13f24e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "67bfd679",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:corporeaspark",
+			Damage: 1s
+		}]
+	}]
+}

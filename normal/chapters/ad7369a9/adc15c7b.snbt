@@ -1,0 +1,19 @@
+{
+	x: 13.0d,
+	y: 4.0d,
+	dependencies: [
+		"c5cef42d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e1bcbd4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:vial",
+			Damage: 1s
+		}]
+	}]
+}

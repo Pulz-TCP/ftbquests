@@ -1,0 +1,18 @@
+{
+	x: 7.0d,
+	y: 9.0d,
+	dependencies: [
+		"bc1a5c42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1868c023",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:starfield"
+		}]
+	}]
+}

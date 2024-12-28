@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 8.0d,
+	dependencies: [
+		"bc1a5c42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3d467bd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pixiering"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
