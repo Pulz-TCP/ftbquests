@@ -19,5 +19,16 @@
 			},
 			id: "botania:livingwood"
 		}]
+	}],
+	rewards: [{
+		uid: "9c1d6f78",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 9
 	}]
 }

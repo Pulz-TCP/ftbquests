@@ -19,5 +19,16 @@
 			},
 			id: "botania:spreader"
 		}]
+	}],
+	rewards: [{
+		uid: "79bad63a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		},
+		count: 4
 	}]
 }

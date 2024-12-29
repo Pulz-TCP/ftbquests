@@ -22,5 +22,27 @@
 				type: "puredaisy"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "279c2d4c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:petal"
+		},
+		count: 4
+	},
+	{
+		uid: "2e9a8a59",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:experience_bottle"
+		},
+		count: 3
 	}]
 }

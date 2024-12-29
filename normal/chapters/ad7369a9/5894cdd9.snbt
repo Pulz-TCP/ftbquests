@@ -1,6 +1,11 @@
 {
+	title: "Hydroangeas",
 	x: 4.0d,
 	y: -1.5d,
+	description: "Passive Generating Mana",
+	text: [
+		"Hydroangeas produce Mana from nearby Water sources, they generate Mana by consuming Water source blocks in a 3×3 area around it. This type of basic flower will wither after time."
+	],
 	dependencies: [
 		"091b9c37"
 	],

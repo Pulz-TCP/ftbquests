@@ -21,5 +21,17 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02dfe798",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:flower",
+			Damage: 12s
+		},
+		count: 4
 	}]
 }

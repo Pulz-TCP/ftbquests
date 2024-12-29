@@ -20,5 +20,16 @@
 			},
 			id: "botania:altar"
 		}]
+	}],
+	rewards: [{
+		uid: "466a04ad",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:experience_bottle"
+		},
+		count: 3
 	}]
 }

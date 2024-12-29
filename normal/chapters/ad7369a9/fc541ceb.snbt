@@ -1,6 +1,11 @@
 {
+	title: "ManaGlass",
 	x: 6.0d,
 	y: -4.5d,
+	description: "Glass That Will Emit Light.",
+	text: [
+		"Managlass is a decorative light emitting block. It can be useful to illuminate areas around you whilst also providing lighting."
+	],
 	dependencies: [
 		"091b9c37"
 	],
@@ -14,5 +19,16 @@
 			},
 			id: "botania:managlass"
 		}]
+	}],
+	rewards: [{
+		uid: "6fcc9805",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass"
+		},
+		count: 10
 	}]
 }

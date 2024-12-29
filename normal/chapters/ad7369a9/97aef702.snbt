@@ -19,5 +19,16 @@
 			},
 			id: "botania:livingrock"
 		}]
+	}],
+	rewards: [{
+		uid: "8b4e1500",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone"
+		},
+		count: 16
 	}]
 }

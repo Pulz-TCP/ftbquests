@@ -1,6 +1,11 @@
 {
+	title: "Manasteel",
 	x: 5.0d,
 	y: 2.0d,
+	description: "Infuse Iron With Mana",
+	text: [
+		"Throw Iron Ingots Into your mana pool. Using stored mana in your pool it will bind with your ingots and create a new valuable resource."
+	],
 	dependencies: [
 		"091b9c37"
 	],
@@ -13,5 +18,26 @@
 			},
 			id: "botania:manaresource"
 		}]
+	}],
+	rewards: [{
+		uid: "fbd3e8d3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:experience_bottle"
+		},
+		count: 2
+	},
+	{
+		uid: "8ddceba0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:blacklotus"
+		}
 	}]
 }

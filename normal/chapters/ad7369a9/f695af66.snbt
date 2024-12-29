@@ -19,5 +19,16 @@
 			},
 			id: "botania:pool"
 		}]
+	}],
+	rewards: [{
+		uid: "e95aaf30",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingrock"
+		},
+		count: 5
 	}]
 }
