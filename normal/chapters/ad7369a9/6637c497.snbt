@@ -1,6 +1,11 @@
 {
+	title: "Wand Of The Forest",
 	x: 0.5d,
 	y: -2.5d,
+	description: "Control or examine your creations.",
+	text: [
+		"The Wand of the Forest is the general multi-use tool for a botanist. It has two modes: Bind / Function. Refer to the lexicon for more infomation."
+	],
 	dependencies: [
 		"a75c6f35"
 	],

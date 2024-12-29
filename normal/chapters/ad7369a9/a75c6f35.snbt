@@ -1,6 +1,11 @@
 {
+	title: "Livingwood",
 	x: 0.5d,
 	y: -1.5d,
+	description: "One of the most influential materials",
+	text: [
+		"Livingwood is used as a common component in many influential crafting recipes and is an important resource."
+	],
 	dependencies: [
 		"4447f43e"
 	],

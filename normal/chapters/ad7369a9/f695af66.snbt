@@ -1,6 +1,11 @@
 {
+	title: "The Mana Pool",
 	x: 3.5d,
 	y: -0.5d,
+	description: "Store your mana for later use",
+	text: [
+		"Mana stored in the pool can be used to power other blocks in Botania that require Mana to function, such as functional flowers."
+	],
 	dependencies: [
 		"97aef702"
 	],

@@ -1,6 +1,11 @@
 {
+	title: "Flower Pouch",
 	x: -2.5d,
 	y: -0.5d,
+	description: "Organising Your Flowers",
+	text: [
+		"The Flower Pouch is a type of storage bag that carries Mystical Flowers. Having this item will free inventory space when collecting flowers."
+	],
 	dependencies: [
 		"98e5f50b"
 	],

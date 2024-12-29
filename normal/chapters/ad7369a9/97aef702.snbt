@@ -1,6 +1,11 @@
 {
+	title: "Living Rock",
 	x: 2.0d,
 	y: -0.5d,
+	description: "One of the most influential materials",
+	text: [
+		"Living Rock is used as a common component in many influential crafting recipes and is an important resource. It also lets you create mana storage."
+	],
 	dependencies: [
 		"4447f43e"
 	],

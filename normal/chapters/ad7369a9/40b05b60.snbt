@@ -1,6 +1,11 @@
 {
+	title: "Petal Apothecary",
 	x: -1.0d,
 	y: -0.5d,
+	description: "Infuse Petals To Create New Magical Flowers",
+	text: [
+		"To craft flowers, the Petal Apothecary needs to be full of Water. "
+	],
 	dependencies: [
 		"017dd9ff"
 	],

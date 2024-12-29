@@ -1,6 +1,11 @@
 {
+	title: "The Mana Spreader",
 	x: 5.0d,
 	y: 0.0d,
+	description: "Transport mana from one place to another.",
+	text: [
+		"The Mana Spreader is used to transport Mana in Botania. The direction can be controlled using the Wand Of The Forest."
+	],
 	dependencies: [
 		"f695af66"
 	],

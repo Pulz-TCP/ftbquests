@@ -1,6 +1,11 @@
 {
+	title: "The Pure Daisy",
 	x: 0.5d,
 	y: -0.5d,
+	description: "Create Living Materials",
+	text: [
+		"The Pure Daisy is used for converting logs and Stone into Livingwood and Livingrock. Both are essential for progress."
+	],
 	dependencies: [
 		"40b05b60"
 	],
