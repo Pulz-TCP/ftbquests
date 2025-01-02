@@ -1,0 +1,23 @@
+{
+	title: "Thaumic Augmentation",
+	x: 3.0d,
+	y: -3.0d,
+	text: [
+		"Having mastered the basics of thaumaturgy and dabbled in the mysteries of time, flux, and causality, you now stand at the precipice of a greater understanding: Thaumic Augmentation. This advanced form of magic allows you to enhance, upgrade, and modify the very core of magical objects, tools, and even your own body. Thaumic Augmentation enables you to push the limits of what is possible with thaumaturgy, imbuing mundane objects with magical properties and infusing them with potent abilities.",
+		"",
+		"The magic of augmentation is complex and requires not only knowledge of Essentia and infusions but also the ability to craft highly specialized components to fuel the augmentation process.",
+		"To begin, you will need to craft an Thaumium caster´s gauntlet , a magical device capable of having modifiers.",
+		"From there, you will be able to dvell into everything from rifts and armor to tools, creating items of unimaginable power."
+	],
+	tasks: [{
+		uid: "448f462b",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:material",
+			Damage: 2s
+		}
+	}]
+}

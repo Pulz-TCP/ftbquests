@@ -1,0 +1,47 @@
+{
+	x: 3.0d,
+	y: -6.5d,
+	dependencies: [
+		"b435856a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "0637da15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:augment_builder_power",
+			tag: {
+				id: "thaumicaugmentation:strength_overworld"
+			}
+		}]
+	},
+	{
+		uid: "537e5846",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:augment_builder_power",
+			tag: {
+				id: "thaumicaugmentation:strength_nether"
+			}
+		}]
+	},
+	{
+		uid: "5a97c5ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:augment_builder_power",
+			tag: {
+				id: "thaumicaugmentation:strength_end"
+			}
+		}]
+	}]
+}

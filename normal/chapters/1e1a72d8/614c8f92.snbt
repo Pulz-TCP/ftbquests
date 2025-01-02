@@ -1,0 +1,25 @@
+{
+	title: "The Dangers of Flux",
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"As you explore deeper into the world of thaumaturgy, you will inevitably encounter one of the most dangerous and volatile aspects of magic: Flux. ",
+		"Flux is the chaotic, unstable energy that results from excessive use of Vis, imbalance in the Aura, and uncontained magical experimentation. While Flux can be a powerful tool when harnessed properly, it is far more often a destructive and uncontrollable force.",
+		"",
+		"Flux arises when you draw too much energy from the world around you — whether through reckless use of your wand, unbalanced infusion, or over-accumulation of magical energies. ",
+		"It corrupts the land, warps the creatures that inhabit it, and threatens to unravel the very fabric of reality. Your task now is to understand Flux, recognize its dangers, and, if possible, learn how to contain or even prevent it."
+	],
+	tasks: [{
+		uid: "972bfb05",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:rift_seed",
+			tag: {
+				riftSize: 10
+			}
+		}
+	}]
+}

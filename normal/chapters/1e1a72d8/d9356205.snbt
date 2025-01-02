@@ -1,0 +1,35 @@
+{
+	title: "Golemancy",
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"You’ve delved deep into the mysteries of thaumaturgy and discovered a path to creation itself: Golemancy. This advanced discipline allows you to craft and animate golems, magical constructs that serve as loyal workers, guardians, or assistants. Whether you need help gathering resources, defending your base, or performing repetitive tasks, golems can be customized to meet your needs.",
+		"",
+		"To begin your journey into Golemancy, you must first craft a Golem Press, a magical device that molds raw materials into the bodies of your constructs. Next, you’ll need to unlock the secrets of animation cores to imbue your creations with intelligence and purpose.",
+		"",
+		"Objectives:",
+		"",
+		"Research Golemancy in your Thaumonomicon.",
+		"Craft and assemble the following tools:",
+		"Golem Press: Crafted in the Arcane Workbench using iron, brass, and Vis.",
+		"Essentia Smeltery (optional): Useful for refining and storing aspects for core creation.",
+		"Use the Golem Press to craft your first golem. Suggested materials for a beginner golem include:",
+		"Wooden Golem (basic worker).",
+		"Clay Golem (simple transport tasks).",
+		"Craft an Animation Core in the Arcane Workbench and infuse it with a specific function (e.g., Gather, Guard, or Harvest) using Essentia.",
+		"Assign the animation core to your golem and deploy it in the world."
+	],
+	tasks: [{
+		uid: "8b9ec5df",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:golem",
+			tag: {
+				props: 72341268037894144L
+			}
+		}
+	}]
+}

@@ -1,0 +1,134 @@
+{
+	title: "The Arcane Workbench",
+	x: 4.5d,
+	y: 1.5d,
+	text: [
+		"With the Thaumonomicon in hand, you have taken your first step into the world of Thaumaturgy. But mere knowledge will not suffice; you need a workspace capable of channeling and shaping the energies you seek to control. It’s time to create the Arcane Workbench — a tool that will serve as the foundation for crafting and experimentation in your magical journey.",
+		"",
+		"The Arcane Workbench is more than just a crafting table. It allows you to infuse your creations with the primal aspects of magic, drawn directly from Salis Mundus. With it, you’ll be able to craft mystical tools, strange devices, and artifacts of untold power.",
+		"",
+		"To begin, you’ll need to craft and place a standard Crafting Table and infuse it with arcane energy using Salis Mundus. The workbench will resonate with your growing mastery, preparing you for greater challenges ahead.",
+		"",
+		"Objectives:",
+		"",
+		"Place a Crafting Table in the world.",
+		"Right-click the Crafting Table with Salis Mundus to transform it into an Arcane Workbench."
+	],
+	dependencies: [
+		"d730c512"
+	],
+	tasks: [{
+		uid: "53541483",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:arcane_workbench"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "0cba2a38",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "b14af720",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "46b5c983",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "5bd41458",
+		type: "item",
+		auto: "disabled",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "e8fb90c3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "6114f4b6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		},
+		count: 5
+	}]
+}

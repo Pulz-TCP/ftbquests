@@ -1,0 +1,49 @@
+{
+	title: "The Path of Auromancy",
+	x: 4.5d,
+	y: 3.0d,
+	text: [
+		"The art of Auromancy calls to you. This mystical branch of thaumaturgy revolves around harnessing and manipulating Vis — the magical energy that flows through the world. With careful study and the right tools, you can master the powers of the Aura, enabling feats of magical precision, defense, and even flight.",
+		"",
+		"Auromancy is not simply about raw power; it is about balance. Drawing too heavily from the Aura can lead to flux and instability, while careful attunement will reward you with boundless potential. Your journey begins with crafting a focus for your wand, the foundation of auromantic magic.",
+		"",
+		"Let me take that glove off your hand a real mage use a wand.",
+		"",
+		"",
+		"Warning:",
+		"The Aura is a living force. If abused, it can become tainted and unstable, leading to catastrophic consequences. Manage your magical consumption wisely, and always keep an eye on your environment.",
+		"",
+		"With Auromancy, you gain the ability to bend the very energy of the world to your will. What kind of thaumaturge will you become: a protector of balance, or a harbinger of chaos?"
+	],
+	dependencies: [
+		"d730c512"
+	],
+	tasks: [{
+		uid: "f025ad98",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15661163",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "iron",
+				rod: "wood",
+				tc.charge: 50
+			}
+		}
+	}]
+}

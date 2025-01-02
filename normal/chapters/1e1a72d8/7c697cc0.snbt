@@ -1,0 +1,29 @@
+{
+	title: "Finding the Emptiness",
+	x: 4.5d,
+	y: -8.0d,
+	text: [
+		"As you progress deeper into the mysteries of thaumaturgy, you may begin to notice strange whispers, inexplicable voids in the Aura, and a creeping sense of unease. ",
+		"These phenomena point to a greater, darker force underlying the fabric of magic itself: The Void, or as it is sometimes called, The Emptiness. ",
+		"This eldritch force exists beyond the boundaries of reality, a realm of infinite potential and infinite destruction.",
+		"",
+		"Discovering and harnessing the Emptiness requires not only advanced research into Thaumic Augmentation but also the ability to peer beyond the veil of reality without succumbing to its dangers. ",
+		"The Emptiness is not a power to be taken lightly; it is unstable, corrupting, and capable of unraveling both the thaumaturge and the world they inhabit. Yet, for those bold (or foolish) enough to delve into its secrets, the rewards can be unparalleled."
+	],
+	dependencies: [
+		"d9ab7355"
+	],
+	tasks: [{
+		uid: "2f16aa6f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:fracture_locator",
+			tag: {
+				found: 0b
+			}
+		}]
+	}]
+}

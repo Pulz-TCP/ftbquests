@@ -1,0 +1,100 @@
+{
+	title: "Salis Mundus",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"Like cooking somtimes is just need a pinch on salt"
+	],
+	dependencies: [
+		"f8729033"
+	],
+	tasks: [{
+		uid: "42cdf17c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		}]
+	},
+	{
+		uid: "22a8c698",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone"
+		}]
+	},
+	{
+		uid: "b9889e5f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "fcee6eac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "42543514",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "017b810b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bowl"
+		}]
+	}],
+	rewards: [{
+		uid: "698d2957",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:salis_mundus"
+		}
+	}]
+}

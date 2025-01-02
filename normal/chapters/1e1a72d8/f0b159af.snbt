@@ -1,0 +1,38 @@
+{
+	title: "Why use time on tedious task when it can be automated?",
+	x: 1.0d,
+	y: -2.0d,
+	shape: "heart",
+	text: [
+		"This is the fastes way to get not only crystals but also to get Preserved Curiosity for researche."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d730c512",
+		"22f2eedd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "51019f56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84265695",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:ore_amber"
+		}
+	}]
+}

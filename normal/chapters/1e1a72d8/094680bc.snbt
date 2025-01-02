@@ -1,0 +1,25 @@
+{
+	title: "The Recharge Pedestal",
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"As your magical endeavors grow more demanding, you’ve likely noticed the strain placed on your wand’s Vis reserves. Constant recharging can be tedious.",
+		"To overcome this, it’s time to construct the Recharge Pedestal, a powerful device that allows you to recharge your wands more efficiently by tapping into the primal energies of the world.",
+		"The Recharge Pedestal will draw Vis from the chunk you are in, channeling it directly into the wand placed upon it. ",
+		"With this device, you’ll have a reliable way to keep your magical tools charged and ready for your next great experiment. "
+	],
+	dependencies: [
+		"8d446836",
+		"01417876"
+	],
+	tasks: [{
+		uid: "674cfb5a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:recharge_pedestal"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: -8.0d,
+	dependencies: [
+		"8493bd77",
+		"ed6fcb33"
+	],
+	tasks: [{
+		uid: "1fe1b374",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					augment: {},
+					energy: {
+						energy: 0L
+					}
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

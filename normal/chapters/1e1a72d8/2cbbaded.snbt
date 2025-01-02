@@ -1,0 +1,21 @@
+{
+	title: "Exploring the Emptiness",
+	x: 6.0d,
+	y: -8.0d,
+	text: [
+		"You have uncovered the existence of the Emptiness, that void beyond reality where normal laws of magic and physics break down. Now, the time has come to venture into this forbidden realm. The Emptiness is a place of limitless potential, but it is also a realm of chaos, corruption, and danger. It holds secrets and treasures beyond comprehension, but it tests the resolve of even the most accomplished thaumaturge.",
+		"",
+		"To survive and explore this alien domain, you must prepare yourself for its hostile environment. You will need tools, knowledge, and protections to withstand the corrupting influence of the Void, as well as the cunning to navigate its shifting, surreal landscapes. Each step deeper into the Emptiness brings you closer to unimaginable power — and perhaps, inevitable destruction.",
+		"",
+		"The Warp you accumulate in the Emptiness builds much faster than in the physical world",
+		"A ready explorer would like to have to bring Warp Cleansing Items like Sanity Soap, Purifying Bath Salts or flask/vial of sane thoughts"
+	],
+	dependencies: [
+		"7c697cc0"
+	],
+	tasks: [{
+		uid: "39b0a2db",
+		type: "dimension",
+		dim: 14676
+	}]
+}

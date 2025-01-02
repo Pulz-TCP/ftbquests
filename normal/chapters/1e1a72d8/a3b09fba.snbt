@@ -1,0 +1,52 @@
+{
+	title: "Your First Wand",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"Seek the materials to create a basic Wand, you need to search for iron nuggets and wood to craft your wand.",
+		"",
+		"Craft an Iron-Capped Wooden Wand.",
+		"",
+		"You need magic power to use your wand, both for casting spells and for crafting. This magic power is henceforth called vis.",
+		"",
+		"there is 3 ways to charge your wand.",
+		"",
+		"When you kill mobs there is a posebilety for there to drop vis. ",
+		"If you wear a Primal Charm it will drop vis on the ground periodical.",
+		"Lastly it can be taken from the chunk if you have a Recharge Pedestal"
+	],
+	dependencies: [
+		"f8729033"
+	],
+	tasks: [{
+		uid: "342c2fc4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "iron",
+				rod: "wood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f79a248d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "iron",
+				rod: "wood",
+				tc.charge: 50
+			}
+		}
+	}]
+}

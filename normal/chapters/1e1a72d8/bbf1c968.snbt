@@ -1,0 +1,45 @@
+{
+	title: "The Art of Infusion",
+	x: 4.5d,
+	y: -1.5d,
+	text: [
+		"You’ve reached a pivotal moment in your journey: the discovery of Infusion Crafting. This advanced magical technique allows you to infuse materials with primal aspects, creating powerful artifacts, tools, and upgrades far beyond the capabilities of ordinary crafting. ",
+		"Infusion combines precise preparation, raw magical energy, and your growing mastery over the Aura to unlock the true potential of thaumaturgy.",
+		"",
+		"However, the process is not without risks. Infusion is inherently unstable, and without proper stabilization, the forces you command may spiral out of control. Crafting through infusion is a test of your skill and preparation, but the rewards are more than worth the effort.",
+		"",
+		"Objectives:",
+		"",
+		"Research Infusion Crafting in your Thaumonomicon.",
+		"Build an Infusion Altar by assembling the following:",
+		"Runic Matrix (1): Crafted in the Arcane Workbench.",
+		"Arcane Pedestals (7): Crafted with Arcane Stone in the Arcane Workbench.",
+		"Arcane Stone Blocks (4) for the altar’s base.",
+		"Arrange the Infusion Altar structure as detailed in the Thaumonomicon and activate it using Salis Mundus.",
+		"",
+		"Hints:",
+		"",
+		"The Infusion Altar structure consists of a Runic Matrix suspended above an arrangement of Arcane Pedestals and Arcane Stone Blocks. Refer to your Thaumonomicon for the exact layout.",
+		"Place the materials to be infused on the pedestals around the altar, and place the central object (the base item) below the Runic Matrix.",
+		"Infusions require Vis from Alchemy. Ensure the requried vis is near the altar when infusing.",
+		"Stabilize the altar with Crystals, Candles, or Heads to reduce instability during infusions.",
+		"",
+		"Infusion crafting can be dangerous. As instability builds, items may be knocked off pedestals, materials can be destroyed, and dangerous effects such as flux rifts or taint may occur. Always stabilize the altar and monitor the process carefully.",
+		"It is a good ide to have extra of the matial requried to add incase of it beeing lost to instability.",
+		"",
+		"With the Infusion Altar, you’ve unlocked a gateway to some of the most powerful and transformative magics in existence. Success depends on your preparation and skill — are you ready to take the next step?"
+	],
+	dependencies: [
+		"d730c512"
+	],
+	tasks: [{
+		uid: "af61c395",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:infusion_matrix"
+		}]
+	}]
+}
