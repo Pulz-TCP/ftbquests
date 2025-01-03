@@ -1,0 +1,23 @@
+{
+	title: "Arcane Ear",
+	x: 7.0d,
+	y: 2.5d,
+	text: [
+		"The Arcane Ear is a remarkable device that combines thaumaturgy with sound detection, allowing you to integrate magical systems with redstone contraptions. The Arcane Ear \"listens\" for specific sounds or notes and translates them into redstone signals, making it an essential tool for creating intricate and responsive magical systems.",
+		"",
+		"Whether you're designing security systems, automated farms, or other magical mechanisms, the Arcane Ear opens up a world of creative possibilities."
+	],
+	dependencies: [
+		"7fa37db3"
+	],
+	tasks: [{
+		uid: "ec9a064c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:arcane_ear"
+		}]
+	}]
+}

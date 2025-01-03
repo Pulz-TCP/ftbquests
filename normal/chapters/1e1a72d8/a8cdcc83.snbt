@@ -1,0 +1,28 @@
+{
+	title: "Essentia Tubes",
+	x: 8.0d,
+	y: 0.5d,
+	text: [
+		"Managing Essentia becomes increasingly complex as your alchemical experiments and crafting grow more ambitious. Essentia Tubes are the perfect solution, allowing you to efficiently transport Essentia between devices like Warded Jars, Essentia Smelteries, Infusion Altars, and more. These magical conduits simplify your workflow by automating the movement of Essentia, reducing manual labor and ensuring a steady supply of magical resources where they’re needed most.",
+		"",
+		"By mastering the use of Essentia Tubes, you’ll gain unparalleled control over the flow of Essentia in your workshop, enabling the seamless integration of your alchemical systems.",
+		"",
+		"Warning:",
+		"",
+		"Flux Build-Up: Poorly designed tube networks can cause Flux to leak into the environment.",
+		"Blockages: Overloading the network or mismatched jar labels can cause Essentia to become stuck in the tubes, requiring manual intervention."
+	],
+	dependencies: [
+		"be14e23e"
+	],
+	tasks: [{
+		uid: "28453ccb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:tube"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Stabilizer",
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		"The Stabilizer is an essential device for any thaumaturge working with powerful, volatile magical energies. As you advance in your studies of Essentia, Vis, and the Flux that arises from your experiments, you’ll encounter situations where magic spirals out of control. The Stabilizer allows you to prevent or mitigate these dangerous outbursts by helping to regulate and stabilize the flow of Vis and magical energies in your environment.",
+		"",
+		"When used correctly, the Stabilizer can be the difference between a successful experiment and a catastrophic release of Flux. By absorbing excess magical energy or redistributing it safely, the Stabilizer ensures that your thaumaturgical work remains productive without overwhelming the surrounding area with dangerous magical fluctuations."
+	],
+	dependencies: [
+		"bbf1c968"
+	],
+	tasks: [{
+		uid: "2bf0129b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:stabilizer"
+		}]
+	}]
+}

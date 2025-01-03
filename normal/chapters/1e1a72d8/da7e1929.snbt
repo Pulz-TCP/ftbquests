@@ -1,7 +1,7 @@
 {
 	title: "Crimson Rites",
-	x: 0.0d,
-	y: -3.0d,
+	x: 6.0d,
+	y: -5.0d,
 	text: [
 		"While exploring the eldritch corners of the world, you’ve encountered strange, hostile figures clad in deep crimson robes. These Crimson Cultists, as they are called, appear to worship something ancient and alien, a power beyond the comprehension of most thaumaturges. Among their possessions lies an ominous artifact: Crimson Rites, a forbidden tome filled with dark rituals, ancient symbols, and cryptic passages.",
 		"",

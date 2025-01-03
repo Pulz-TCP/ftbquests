@@ -1,7 +1,7 @@
 {
 	title: "The Mystery of Rifts",
-	x: 1.5d,
-	y: -4.0d,
+	x: 3.0d,
+	y: -5.0d,
 	text: [
 		"As your magical knowledge expands, so too does your awareness of the dangers that lie in the space between worlds. Rifts are one of the most unsettling phenomena you will encounter in your journey. These tear-like openings in reality are manifestations of Flux, where the fabric of the world is fractured by the uncontrolled flow of magic. These rifts serve as a portal to the unknown, often bringing hostile creatures, dangerous energies, or tainted corruption into the world.",
 		"",

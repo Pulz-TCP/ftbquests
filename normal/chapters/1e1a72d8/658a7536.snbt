@@ -1,0 +1,23 @@
+{
+	title: "Essentia Smeltery",
+	x: 7.0d,
+	y: -0.5d,
+	text: [
+		"As your mastery of alchemy grows, so does your need to extract and manage the raw magical components known as Essentia. The Essentia Smeltery is an advanced device that allows you to break down physical objects into their purest Essentia components. By efficiently extracting and collecting Essentia, you can power your alchemical recipes, Infusion Altars, and magical constructs with precision and control.",
+		"",
+		"Mastering the Essentia Smeltery is a key milestone in your journey as a thaumaturge, providing you with the ability to fuel even the most complex magical processes."
+	],
+	dependencies: [
+		"fd7b6269"
+	],
+	tasks: [{
+		uid: "490a7619",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:smelter_basic"
+		}]
+	}]
+}
