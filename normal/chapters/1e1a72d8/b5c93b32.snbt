@@ -1,0 +1,25 @@
+{
+	title: "Void Essentia Smeltery",
+	x: 8.0d,
+	y: -2.5d,
+	text: [
+		"The Void Essentia Smeltery is an advanced, powerful contraption designed to deal with the excess magical energies produced by your thaumaturgical experiments. ",
+		"While the regular Essentia Smeltery allows you to refine Essentia into valuable materials, the Void Essentia Smeltery takes this a step further by safely handling volatile or unwanted Essentia that might otherwise pose a threat to your magical work.",
+		"",
+		"When dealing with dangerous byproducts of your experiments—such as flux the dangerous magical waste—the Void Essentia Smeltery can absorb and neutralize these substances, ensuring that much less magical energies accumulate in your laboratory or surrounding environment. It serves as both a safeguard against magical contamination and a means of ensuring that nothing harmful remains after your experiments."
+	],
+	dependencies: [
+		"ed6fcb33",
+		"d2d41229"
+	],
+	tasks: [{
+		uid: "49fe4e87",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:smelter_void"
+		}]
+	}]
+}

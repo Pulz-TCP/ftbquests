@@ -1,0 +1,25 @@
+{
+	title: "Alchemical Metallurgy",
+	x: 6.0d,
+	y: -0.5d,
+	text: [
+		"Your journey into the world of alchemy has revealed new possibilities for shaping and enhancing materials through magical means. ",
+		"Alchemical Metallurgy takes the principles of Hedge Alchemy and applies them to metals, allowing you to create alloys, refine resources, and even imbue metals with magical properties.",
+		"",
+		"This branch of thaumaturgy is key to crafting advanced tools, components, and magical constructs. By mastering Alchemical Metallurgy, you'll gain the ability to create powerful materials like Thaumium, Alchemical brass and later Void Metal, each with unique properties that will aid you in your magical endeavors."
+	],
+	dependencies: [
+		"e892d81b"
+	],
+	tasks: [{
+		uid: "e8de8e0d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:ingot"
+		}],
+		only_from_crafting: true
+	}]
+}

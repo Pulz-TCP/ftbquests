@@ -1,0 +1,35 @@
+{
+	title: "Essentia Transfusers",
+	x: 10.0d,
+	y: 0.5d,
+	text: [
+		"The Essentia Transfusers are magical devices that allow the precise transfer of Essentia between different containers, devices, and networks. Whether you need to move Essentia from a Warded Jar to an Essentia Smeltery or from one Essentia Tube network to another, these devices are crucial for ensuring a smooth flow of magical energy. With their ability to seamlessly push, pull, and redirect Essentia, they are indispensable for any thaumaturge seeking to streamline their Essentia management.",
+		"",
+		"By mastering the Essentia Transfuser, you will enhance your ability to control the flow of magical resources, improving the efficiency and organization of your alchemical processes."
+	],
+	dependencies: [
+		"48a4786d",
+		"def6816d"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "0fda1e12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:essentia_input"
+		}]
+	},
+	{
+		uid: "742b3012",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:essentia_output"
+		}]
+	}]
+}

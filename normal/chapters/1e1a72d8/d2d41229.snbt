@@ -1,0 +1,24 @@
+{
+	title: "Thaumium Essentia Smeltery",
+	x: 8.0d,
+	y: -0.5d,
+	text: [
+		"The standard Essentia Smeltery has served you well, but as your magical ambitions grow, so too must your tools. The Thaumium Essentia Smeltery is an advanced upgrade that combines the functionality of the original smeltery with the resilience and magical conductivity of Thaumium.",
+		"",
+		"This enhanced smeltery offers increased efficiency, reduced Flux emissions, and greater stability, making it an essential upgrade for thaumaturges engaged in large-scale alchemical operations."
+	],
+	dependencies: [
+		"658a7536",
+		"a8cdcc83"
+	],
+	tasks: [{
+		uid: "bd3c600e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:smelter_thaumium"
+		}]
+	}]
+}

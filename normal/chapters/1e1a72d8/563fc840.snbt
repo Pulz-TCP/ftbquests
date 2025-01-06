@@ -1,0 +1,24 @@
+{
+	title: "Auxiliary Slurry Pump",
+	x: 8.0d,
+	y: 1.5d,
+	text: [
+		"The Auxiliary Slurry Pump is a vital tool for handling the byproducts generated from smelting. It is particularly useful in managing Essentia Slurry, a viscous substance that can clog pipes and hinder the flow of Essentia if not properly managed. The Auxiliary Slurry Pump helps automate the removal and transportation of this troublesome substance, ensuring that your systems remain clean, efficient, and Flux-free.",
+		"",
+		"With this device in your arsenal, you’ll be able to improve the output of you smelter and lessen the flux from smelting."
+	],
+	dependencies: [
+		"8f9808b8",
+		"a8cdcc83"
+	],
+	tasks: [{
+		uid: "78d21290",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:smelter_aux"
+		}]
+	}]
+}

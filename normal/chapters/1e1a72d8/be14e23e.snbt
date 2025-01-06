@@ -1,0 +1,29 @@
+{
+	title: "Warded Jars",
+	x: 7.0d,
+	y: 0.5d,
+	text: [
+		"As your experiments with alchemy and Essentia grow more advanced, the need for proper storage becomes undeniable. Warded Jars are magical containers designed to safely store and transport Essentia. These jars are sealed with powerful runes that prevent the Essentia from leaking or becoming unstable, making them an essential tool for any thaumaturge dealing with alchemical processes or Infusion Crafting.",
+		"",
+		"With Warded Jars, you can organize your workspace, streamline your crafting processes, and ensure that volatile Essentia remains safely contained.",
+		"",
+		"Objectives:",
+		"",
+		"Unlock Warded Jars and make one",
+		"",
+		"Research Warded Jars in the Alchemy Tab of your Thaumonomicon."
+	],
+	dependencies: [
+		"658a7536"
+	],
+	tasks: [{
+		uid: "3134d1c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:jar_normal"
+		}]
+	}]
+}

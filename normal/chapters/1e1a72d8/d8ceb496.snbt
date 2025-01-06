@@ -1,0 +1,27 @@
+{
+	title: "Hedge Alchemy",
+	x: 6.0d,
+	y: 0.5d,
+	text: [
+		"As your understanding of thaumaturgy deepens, you begin to see the potential to influence the physical world through magical transformations. ",
+		"Hedge Alchemy represents the simplest form of alchemical manipulation, allowing you to transmute mundane materials into more useful or valuable substances. ",
+		"Though rudimentary compared to advanced alchemical techniques, Hedge Alchemy lays the foundation for creating powerful magical compounds and discovering the secrets of alchemical transmutation.",
+		"",
+		"This branch of alchemy uses basic ingredients and aspects to achieve practical results, enabling you to craft essential resources and begin experimenting with the transformative power of Essentia.",
+		"start with dublicating a ink sac."
+	],
+	dependencies: [
+		"e892d81b"
+	],
+	tasks: [{
+		uid: "b2e69915",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye"
+		}],
+		only_from_crafting: true
+	}]
+}

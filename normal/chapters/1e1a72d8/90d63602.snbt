@@ -1,0 +1,40 @@
+{
+	title: "Theorycrafting",
+	x: 1.0d,
+	y: -1.0d,
+	text: [
+		"Back in my days you needed to be smart to unlock new knowledge.",
+		"Now days you just need alot of paper and ink.",
+		"",
+		"But that does not mean that you can't be smart in how you go about it. ",
+		"",
+		"If you place a bookshelf nearby you can chose it on the researche table unlocking new possibilities not costing resources.",
+		"",
+		"Also not unlocking/discovering topic´s in the Thaumonomicon will limit the researche to fundamentals so it is poseble to get some of all the 8 theory without having to craft or consume items.  ",
+		"",
+		"Discovering topic will unlock new researche specific for the topic, Those options typical cost itmes or need you to have the item in you inventory, this is marked in the researche.",
+		"",
+		"also mining amber bering stone for Preserved Curiosity or trading gold with The Pech for Arcane Curiosity is a valid alternative."
+	],
+	dependencies: [
+		"d730c512"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2a835d9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70c00197",
+		type: "xp",
+		xp: 1
+	}]
+}

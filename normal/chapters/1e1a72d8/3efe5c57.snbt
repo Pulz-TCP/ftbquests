@@ -1,0 +1,22 @@
+{
+	title: "Sanity Checker",
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"In the world of thaumaturgy, the pursuit of knowledge is often accompanied by the temptation to push the boundaries of magic beyond safe limits. The further you delve into the unknown, the more likely you are to attract the attention of dangerous forces—forces that may distort your perception of reality itself. As your experiments grow more ambitious, you may begin to experience Flux-induced madness or become vulnerable to Essentia contamination.",
+		"",
+		"The Sanity Checker is a critical device designed to help you monitor your mental state and prevent these dangers from spiraling out of control. This tool uses magical sensors and advanced thaumaturgical techniques to detect early signs of Flux Distortion, Essentia Contamination, and other hazards that can affect your mind. By keeping track of these influences, the Sanity Checker helps you avoid the descent into madness and ensures that your magical experiments stay on course."
+	],
+	tasks: [{
+		uid: "82b4f446",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:sanity_checker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
