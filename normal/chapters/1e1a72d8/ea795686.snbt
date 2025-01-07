@@ -1,0 +1,24 @@
+{
+	title: "Lamp of Fertility",
+	x: 6.0d,
+	y: 1.5d,
+	text: [
+		"As you continue to delve into the wonders of thaumaturgy, you’ve discovered the delicate art of enhancing life itself. The Lamp of Fertility is a powerful magical device that imbues nearby creatures with heightened vitality and reproductive energy. ",
+		"By channeling Victus Essentia, the lamp creates an aura that encourages animals within its radius to breed, providing an invaluable tool for managing livestock, golem resources, or magical creatures.",
+		"",
+		"However, maintaining the lamp's delicate balance requires care, as excessive use may strain the surrounding aura or result in unintended consequences."
+	],
+	dependencies: [
+		"896b4daf"
+	],
+	tasks: [{
+		uid: "f4330e96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:lamp_fertility"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Headband of Curiosity",
+	x: 8.5d,
+	y: 7.5d,
+	text: [
+		"The Headband of Curiosity is an enchanted piece of headwear designed to amplify the wearer's thirst for knowledge.",
+		"his headband enhances your ability to perceive and understand the world around you. When worn, it sharpens your mind, allowing you to unravel hidden truths, discover new research insights, and explore the deeper mysteries of the world of thaumaturgy.",
+		"",
+		"",
+		"This headband was created to help those who seek to expand their understanding, particularly in the arts of Thaumcraft and the study of Essentia and the mysteries of the universe. With the Headband of Curiosity, you'll find that you can unlock knowledge more efficiently, revealing secrets and granting you the ability to rapidly progress through magical research. Whether you're exploring new theories or attempting to discover the hidden properties of magical items, the Headband of Curiosity will enhance your mind's power and comprehension."
+	],
+	dependencies: [
+		"cf065394"
+	],
+	tasks: [{
+		uid: "53185744",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

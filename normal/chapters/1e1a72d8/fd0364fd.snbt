@@ -1,0 +1,25 @@
+{
+	title: "Vis Generator",
+	x: 10.0d,
+	y: 4.5d,
+	text: [
+		"Harnessing the raw energy of the mundane world and converting it into Vis has always been a tantalizing challenge for thaumaturges. ",
+		"The Vis Generator is an ingenious device that bridges the gap between mechanical power and magical energy, transforming common fuels into usable Vis to replenish your local aura. ",
+		"This technology is particularly useful for thaumaturges operating in areas with depleted Vis levels or for powering demanding magical constructs and devices.",
+		"",
+		"However, such power comes with risks—overloading the generator or neglecting its balance may lead to dangerous Flux buildup."
+	],
+	dependencies: [
+		"a112e9a1"
+	],
+	tasks: [{
+		uid: "f21b4c8b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:vis_generator"
+		}]
+	}]
+}

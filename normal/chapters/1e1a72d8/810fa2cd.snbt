@@ -1,7 +1,7 @@
 {
 	title: "The Arcane Workbench",
 	x: 4.5d,
-	y: 1.5d,
+	y: 3.5d,
 	text: [
 		"With the Thaumonomicon in hand, you have taken your first step into the world of Thaumaturgy. But mere knowledge will not suffice; you need a workspace capable of channeling and shaping the energies you seek to control. It’s time to create the Arcane Workbench — a tool that will serve as the foundation for crafting and experimentation in your magical journey.",
 		"",

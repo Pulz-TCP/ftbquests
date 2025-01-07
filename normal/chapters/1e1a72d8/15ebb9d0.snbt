@@ -1,0 +1,25 @@
+{
+	title: "Lamp of Growth",
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		"In your journey as a thaumaturge, you’ve encountered the delicate balance of magic and nature. The Lamp of Growth represents the perfect harmony between the two. ",
+		"",
+		"This magical lamp accelerates the growth of nearby plants, crops, and even trees by infusing the surrounding area with concentrated Herba Essentia. It’s a vital tool for cultivating magical ingredients, expanding your farms, or even experimenting with rapid regrowth for alchemical purposes.",
+		"",
+		"However, the lamp’s potent magic requires proper preparation and maintenance to ensure it functions optimally without destabilizing the local aura."
+	],
+	dependencies: [
+		"896b4daf"
+	],
+	tasks: [{
+		uid: "9d55fd9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:lamp_growth"
+		}]
+	}]
+}

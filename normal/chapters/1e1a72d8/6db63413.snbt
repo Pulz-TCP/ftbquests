@@ -1,0 +1,57 @@
+{
+	title: "Infusion Boosting",
+	x: 4.5d,
+	y: 8.5d,
+	text: [
+		"The Infusion Speed Stone is a revolutionary magical item that allows you to drastically reduce the time it takes to perform an infusion. ",
+		"Infusion crafting is powerful, but the process can be lengthy, and you may often find yourself waiting for a long time to complete your most complex rituals. ",
+		"With the Infusion Speed Stone, however, you can accelerate the infusion process, allowing you to craft powerful magical items more quickly and efficiently.",
+		"",
+		"As your journey in the world of thaumaturgy continues, you may begin to notice the increasing Vis cost for more complex infusions. Higher-tier infusions, while powerful, can consume vast amounts of Vis, putting a strain on your Essentia reserves and making crafting long and expensive. ",
+		"The Infusion Cost Stone is a magical item designed to reduce the amount of Vis required for infusions, making high-tier magical crafting more economical and accessible"
+	],
+	dependencies: [
+		"bbf1c968"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "798d6b8a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:matrix_cost"
+		}]
+	},
+	{
+		uid: "a975e206",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:matrix_speed"
+		}]
+	},
+	{
+		uid: "2f4c13b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:stone_eldritch_tile"
+		}]
+	},
+	{
+		uid: "b9524da4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:stone_ancient"
+		}]
+	}]
+}

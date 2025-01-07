@@ -1,0 +1,57 @@
+{
+	title: "Verdant Heart Charm",
+	x: 8.5d,
+	y: 6.5d,
+	text: [
+		"The Verdant Heart Charm is a mystical artifact that embodies the essence of nature, granting the wearer a deep connection with the world. Infused with the power of  Vitalis (Life), this charm have to configurations, It eather allows its wearer to restore health by harness the natural energies of the environment. By wearing the Verdant Heart Charm, you are granted the ability to heal yourself. ",
+		"Or sustane you so you no longer need food.",
+		"",
+		"The Verdant Heart Charm is a treasured artifact for those who walk the path of life and growth, whether you are a seasoned thaumaturge, a guardian of the land, or a traveler who seeks to restore the balance of nature. With it, you can heal both yourself and  provid nourishment to yourself."
+	],
+	dependencies: [
+		"cf065394"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "0305476f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3a28ae82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:verdant_charm",
+			tag: {
+				type: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3abef122",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:verdant_charm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

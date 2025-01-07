@@ -1,0 +1,27 @@
+{
+	title: "Infusion: Eldritch stone",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thaumcraft:pillar_eldritch"
+	},
+	x: 5.0d,
+	y: 9.5d,
+	text: [
+		"Eldritch stone will reduce instability, but slightly increase the essentia required."
+	],
+	dependencies: [
+		"6db63413"
+	],
+	tasks: [{
+		uid: "4cbc78e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:stone_eldritch_tile"
+		}]
+	}]
+}

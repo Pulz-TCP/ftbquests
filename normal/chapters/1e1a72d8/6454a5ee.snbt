@@ -1,0 +1,22 @@
+{
+	title: "Magic Mirror",
+	x: 7.5d,
+	y: 2.5d,
+	text: [
+		"Transportation is a challenge for any thaumaturge. Whether it's the need to quickly transfer resources or bridge great distances, the Magic Mirror offers an elegant and mystical solution. ",
+		"These enchanted constructs allow you to link two points across dimensions, enabling the instantaneous transfer of items."
+	],
+	dependencies: [
+		"896b4daf"
+	],
+	tasks: [{
+		uid: "06035cdd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:mirror"
+		}]
+	}]
+}

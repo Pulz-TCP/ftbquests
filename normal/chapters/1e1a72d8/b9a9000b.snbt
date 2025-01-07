@@ -1,7 +1,7 @@
 {
 	title: "Stabilizer",
-	x: 6.0d,
-	y: -1.5d,
+	x: 5.5d,
+	y: 8.5d,
 	text: [
 		"The Stabilizer is an essential device for any thaumaturge working with powerful, volatile magical energies. As you advance in your studies of Essentia, Vis, and the Flux that arises from your experiments, you’ll encounter situations where magic spirals out of control. The Stabilizer allows you to prevent or mitigate these dangerous outbursts by helping to regulate and stabilize the flow of Vis and magical energies in your environment.",
 		"",

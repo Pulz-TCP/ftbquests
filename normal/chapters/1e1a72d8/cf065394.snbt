@@ -1,0 +1,25 @@
+{
+	title: "Cloudstepper Ring",
+	x: 7.5d,
+	y: 7.0d,
+	text: [
+		"The Cloudstepper Ring is an extraordinary magical artifact that allows its wearer to defy the laws of gravity, jumping upon the very air itself. ",
+		"Crafted using Aer (Air) the Cloudstepper Ring grants the wearer the ability to float and traverse even the highest of cliffs and obstacles without the need for ladders, scaffolding, or precarious jumping. ",
+		"This ring enables effortless movement through the skies, making it an essential tool for those seeking to explore the heights of their world or escape danger with ease."
+	],
+	dependencies: [
+		"bbf1c968"
+	],
+	tasks: [{
+		uid: "b99f2d47",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:cloud_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

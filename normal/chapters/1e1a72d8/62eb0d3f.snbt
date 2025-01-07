@@ -1,7 +1,7 @@
 {
 	title: "Focal Manipulator",
 	x: 5.5d,
-	y: 3.0d,
+	y: -1.5d,
 	text: [
 		"The Focal Manipulator is a crucial device for advanced thaumaturges seeking to enhance and fine-tune their Casting Focus. While a Casting Focus allows you to direct and channel your spells, the Focal Manipulator offers the ability to modify and amplify these focuses, allowing for greater versatility and power in your spellcasting. By adjusting the properties of your Casting Focus, you can alter how spells are cast, increase their potency, and even create new types of magical effects.",
 		"",

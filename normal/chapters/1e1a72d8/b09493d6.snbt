@@ -1,0 +1,31 @@
+{
+	title: "Infernal Furnace",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thaumcraft:infernal_furnace"
+	},
+	x: 9.0d,
+	y: 3.0d,
+	text: [
+		"In your pursuit of advanced thaumaturgy, you’ve realized that conventional means of smelting and processing materials are both inefficient and unworthy of your growing mastery of magic. The Infernal Furnace is a marvel of magical engineering, harnessing raw, primal flames to process items at incredible speeds without the need for fuel. This construct is capable of smelting ores, cooking food, and even processing magical materials, all while producing minimal waste.",
+		"",
+		"However, constructing and operating such a powerful furnace comes with its challenges. It requires precise alignment of magical energies, sturdy materials to withstand the intense heat, and knowledge of how to handle the primal flames safely.",
+		"",
+		"Unlock the Infernal Furnace research in the Thaumonomicon under the Artifice Tab"
+	],
+	dependencies: [
+		"810fa2cd"
+	],
+	tasks: [{
+		uid: "46cebd78",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_bars"
+		}]
+	}]
+}

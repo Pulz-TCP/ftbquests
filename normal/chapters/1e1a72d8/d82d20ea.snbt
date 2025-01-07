@@ -1,0 +1,23 @@
+{
+	title: "Hungry Chest",
+	x: 6.5d,
+	y: 4.5d,
+	text: [
+		"The Hungry Chest is a strange and unsettling creation, blending the mundane with the arcane in the most unusual way. Imbued with powerful thaumaturgy, this chest not only stores items but also has a peculiar hunger for them. When placed near valuable resources or enchanted items, it will automatically consume them, storing the contents within its magical depths. While it is incredibly convenient for organizing large amounts of goods, the Hungry Chest can become a bit too eager, potentially devouring items you didn't intend to part with.",
+		"",
+		"While the chest's magical nature makes it a great addition to any thaumaturgical workshop, you must exercise caution when using it. The Hungry Chest has been known to gobble up anything within range, so don’t let it get too close to anything precious unless you’re sure it’s under control."
+	],
+	dependencies: [
+		"810fa2cd"
+	],
+	tasks: [{
+		uid: "f2716e4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:hungry_chest"
+		}]
+	}]
+}

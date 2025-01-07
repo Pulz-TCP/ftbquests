@@ -1,7 +1,7 @@
 {
 	title: "The Path of Auromancy",
 	x: 4.5d,
-	y: 3.0d,
+	y: -1.5d,
 	text: [
 		"The art of Auromancy calls to you. This mystical branch of thaumaturgy revolves around harnessing and manipulating Vis — the magical energy that flows through the world. With careful study and the right tools, you can master the powers of the Aura, enabling feats of magical precision, defense, and even flight.",
 		"",

@@ -1,0 +1,25 @@
+{
+	title: "Boots of the Traveler",
+	x: 7.5d,
+	y: 9.0d,
+	text: [
+		"The Boots of the Traveler are a magical set of footwear that enhances your mobility, allowing you to move swiftly across the land without tiring. Crafted from enchanted materials and infused with Vis and Motus, these boots provide the wearer with unparalleled speed and endurance. With these boots equipped, you can travel over difficult terrain with ease, as they negate the effects of slow movement from swamps, deserts, and other obstacles. The Boots of the Traveler are essential for anyone who wishes to explore the world of Minecraft without being hindered by fatigue or the hardships of rough landscapes.",
+		"",
+		"Through careful Thaumaturgy, you will learn to craft these boots and infuse them with the power to vastly increase your speed and reduce travel time. Whether you are racing through forests, scaling mountains, or crossing vast plains, the Boots of the Traveler will make your journey quicker and far less exhausting."
+	],
+	dependencies: [
+		"bbf1c968"
+	],
+	tasks: [{
+		uid: "82754a76",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:traveller_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

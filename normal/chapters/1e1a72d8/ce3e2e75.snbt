@@ -1,0 +1,23 @@
+{
+	title: "Thaumic Dioptra",
+	x: 5.5d,
+	y: 4.5d,
+	text: [
+		"The Thaumic Dioptra is a remarkable and intricate device, designed to enhance your ability to perceive and manipulate the world around you. Using a combination of Lux, Sensus, and Potentia, this magical instrument allows the thaumaturge to peer into the unseen, granting greater insight into the surrounding environment. By magnifying distant or hidden details, the Thaumic Dioptra can reveal the flow of magical energy, the locations of valuable resources, or even hidden magical anomalies in the world around you.",
+		"",
+		"With its ability to observe and interact with the unseen, the Thaumic Dioptra will prove to be a valuable tool for anyone who wishes to better understand the world at a deeper, more arcane level."
+	],
+	dependencies: [
+		"810fa2cd"
+	],
+	tasks: [{
+		uid: "01f4facc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:dioptra"
+		}]
+	}]
+}

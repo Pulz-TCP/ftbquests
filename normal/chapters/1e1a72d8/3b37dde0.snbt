@@ -1,0 +1,23 @@
+{
+	title: "Essentia Mirror",
+	x: 8.0d,
+	y: 1.5d,
+	text: [
+		"Transporting Essentia efficiently has always been a challenge for thaumaturges. While tubes and jars serve their purpose, there are times when a more versatile solution is required.",
+		"",
+		" Enter the Essentia Mirror—a magical device that allows the instantaneous transfer of Essentia between two points. By creating a pair of these mirrors, you can link distant locations, enabling seamless and rapid movement of magical essence."
+	],
+	dependencies: [
+		"6454a5ee"
+	],
+	tasks: [{
+		uid: "3c2a819e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:mirror_essentia"
+		}]
+	}]
+}

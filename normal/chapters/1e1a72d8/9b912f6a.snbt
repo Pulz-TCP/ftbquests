@@ -1,0 +1,35 @@
+{
+	title: "Arcane Levitator",
+	x: 6.5d,
+	y: 5.5d,
+	text: [
+		"The Arcane Levitator is a wondrous device that allows the user to manipulate gravity, enabling them to levitate objects or even themselves. By harnessing the power of Aer and Potentia, this thaumaturgical contraption defies the natural forces of gravity, making it an indispensable tool for both exploration and construction. ",
+		"Whether you're navigating difficult terrain, building elevated structures, or simply enjoying the sensation of floating, the Arcane Levitator will prove itself as an essential part of any thaumaturge’s toolkit.",
+		"",
+		"However, its use requires careful attention to the delicate balance of magical energies to prevent unintended consequences, such as sudden falls or Flux disturbances.",
+		"",
+		"",
+		"Warning:",
+		"",
+		"Flux Risk: Unchecked use of the Arcane Levitator or using it in areas with low Vis can cause the device to malfunction, resulting in Flux buildup and unstable levitation. Always monitor your magical resources carefully.",
+		"",
+		"Falling Hazards: Though it allows for easy movement through the air, the levitator does not provide perfect control over your descent. Falling from high altitudes without proper cushioning could result in damage or death. Always ensure a safe landing space before using the device for flight.",
+		"",
+		"Aura Depletion: Excessive use of the Arcane Levitator without replenishing the local aura can strain magical energies, resulting in the device losing functionality or becoming erratic.",
+		"",
+		"The Arcane Levitator is a fascinating and useful tool for a thaumaturge, allowing you to defy gravity with a touch of arcane mastery. With proper care and calibration, this device will open up new heights—both literally and figuratively—within your magical pursuits."
+	],
+	dependencies: [
+		"d82d20ea"
+	],
+	tasks: [{
+		uid: "fab7c3e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:levitator"
+		}]
+	}]
+}

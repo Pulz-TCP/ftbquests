@@ -1,0 +1,27 @@
+{
+	title: "Arcane Light",
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		"As a thaumaturge, you often find yourself venturing into dark and foreboding places, where natural light fails to reach. ",
+		"",
+		"The Arcane Light is a simple yet invaluable spellcrafted solution to illuminate your surroundings with magical radiance. ",
+		"",
+		"Unlike mundane torches, this light is conjured from pure Vis, requiring no fuel or maintenance, and it can be placed almost anywhere. ",
+		"",
+		"Its gentle glow is not only practical but also aesthetically pleasing, making it a versatile tool for both exploration and decoration."
+	],
+	dependencies: [
+		"810fa2cd"
+	],
+	tasks: [{
+		uid: "70265953",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:lamp_arcane"
+		}]
+	}]
+}

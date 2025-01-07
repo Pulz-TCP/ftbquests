@@ -1,6 +1,6 @@
 {
 	title: "The Primordial Charm",
-	x: 1.0d,
+	x: -1.0d,
 	y: 1.0d,
 	text: [
 		"As your understanding of thaumaturgy deepens, you’ve begun uncovering secrets of untamed primal power. The Primordial Charm is a legendary artifact that embodies the raw essence of magic, granting unparalleled versatility and utility to its wielder. It is a tool of ancient design, crafted by those who sought mastery over the six primal aspects.",

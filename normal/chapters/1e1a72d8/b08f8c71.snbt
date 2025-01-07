@@ -1,0 +1,27 @@
+{
+	title: "Charm of Undying",
+	x: 7.5d,
+	y: 8.0d,
+	text: [
+		"The Charm of Undying is an ancient and powerful artifact that grants its wearer a second chance at life. Forged from the darkest of magics and imbued with the essence of Vitalis (Life), this charm has the ability to revive its bearer upon death, ensuring that they do not succumb to their demise. ",
+		"This rare and magical trinket serves as a lifeline for those who wander dangerous lands or delve deep into the unknown, where the risks are high, and death is ever-present.",
+		"",
+		"Crafting the Charm of Undying requires great expertise in both Thaumaturgy and the manipulation of life and death energies. It is not a simple item to make, and only those who have mastered Infusion and the art of Essentia can unlock its full potential. ",
+		"Once crafted, this charm can be worn as a pendant or amulet, providing the ultimate safety net for any adventurer."
+	],
+	dependencies: [
+		"cf065394"
+	],
+	tasks: [{
+		uid: "ec5fcf50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:charm_undying"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

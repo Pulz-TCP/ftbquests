@@ -1,6 +1,6 @@
 {
 	title: "The Recharge Pedestal",
-	x: 1.0d,
+	x: 2.0d,
 	y: 2.0d,
 	text: [
 		"As your magical endeavors grow more demanding, you’ve likely noticed the strain placed on your wand’s Vis reserves. Constant recharging can be tedious.",

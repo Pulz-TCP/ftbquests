@@ -1,0 +1,27 @@
+{
+	title: "Arcane Grappler",
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"The Arcane Grappler is a marvel of thaumaturgical ingenuity, combining the mechanical precision of a grappling hook with the power of arcane magic. This device allows you to latch onto distant surfaces and rapidly pull yourself toward them, defying the limitations of conventional movement. Whether navigating treacherous landscapes, scaling tall buildings, or engaging in high-speed pursuits, the Arcane Grappler provides an unparalleled combination of versatility and magic."
+	],
+	dependencies: [
+		"810fa2cd"
+	],
+	tasks: [{
+		uid: "efe4d4ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:grapple_gun",
+			tag: {
+				loaded: 0b,
+				tc.charge: 95
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

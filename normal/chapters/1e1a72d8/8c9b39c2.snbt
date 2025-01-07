@@ -1,0 +1,23 @@
+{
+	title: "Arcane Pattern Crafter",
+	x: 5.5d,
+	y: 5.5d,
+	text: [
+		"The Arcane Pattern Crafter is a sophisticated thaumaturgical device that allows you to create intricate magical crafting.",
+		"",
+		"Pattern Combinations: The Arcane Pattern Crafter is capable of creating combinations of magical patterns that interact with each other. Experiment with various patterns to create unique effects or to power advanced constructs."
+	],
+	dependencies: [
+		"ce3e2e75"
+	],
+	tasks: [{
+		uid: "f7244ab8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:pattern_crafter"
+		}]
+	}]
+}

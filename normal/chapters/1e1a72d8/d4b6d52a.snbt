@@ -1,0 +1,52 @@
+{
+	title: "Thaumium Fortress Armor",
+	x: 8.5d,
+	y: 9.5d,
+	text: [
+		"The Thaumium Fortress Armor is a remarkable set of enchanted protective gear, crafted from the legendary Thaumium metal, renowned for its strength, durability, and magical properties. ",
+		"This armor set combines the finest qualities of defense and thaumaturgy, providing the wearer with unparalleled protection against both physical and magical threats. ",
+		"With its unique design, the Thaumium Fortress Armor is not only resilient against the harshest of blows but also offers magical enhancements that can bolster your defense against dark and arcane forces.",
+		"",
+		"",
+		"The full set grants you enhanced abilities, including reduced magical damage, better resistance to physical harm, and the ability to stand firm in even the most hostile environments."
+	],
+	dependencies: [
+		"40e5a465"
+	],
+	tasks: [{
+		uid: "175e8c52",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:fortress_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c9cc0ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:fortress_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18710975",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:fortress_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

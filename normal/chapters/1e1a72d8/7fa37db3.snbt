@@ -1,7 +1,7 @@
 {
 	title: "Goggles of Revealing",
-	x: 6.0d,
-	y: 1.5d,
+	x: 2.0d,
+	y: 1.0d,
 	text: [
 		"The Goggles of Revealing are a vital piece of equipment for any thaumaturge seeking to interact with the magical world on a deeper level. More than just eyewear, these enchanted goggles grant you the ability to see hidden magical phenomena, such as sources of Vis, and the rifts through the environment.",
 		"",

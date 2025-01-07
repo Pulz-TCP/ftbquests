@@ -1,0 +1,22 @@
+{
+	title: "Advanced Automated Crossbow",
+	x: 12.0d,
+	y: 4.0d,
+	text: [
+		"A improved Automated Crossbow, with better targeting. "
+	],
+	dependencies: [
+		"e43ee998"
+	],
+	tasks: [{
+		uid: "d179fa4b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:turret",
+			Damage: 1s
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Paving Stone of Travel / Barrier Stone",
+	x: 5.5d,
+	y: 6.5d,
+	text: [
+		"The Paving Stone of Travel is a simple yet ingenious creation that significantly enhances your ability to travel across the land.",
+		"",
+		"Barrier Stone a ward nice to keep monster out, but also keeps golems out."
+	],
+	dependencies: [
+		"bbf1c968"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d562a227",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:paving_stone_travel"
+		}]
+	},
+	{
+		uid: "e11aca93",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:paving_stone_barrier"
+		}]
+	}]
+}

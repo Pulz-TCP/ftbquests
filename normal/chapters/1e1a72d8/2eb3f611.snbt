@@ -1,0 +1,28 @@
+{
+	title: "Infusion: Ancient stone",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thaumcraft:pillar_ancient"
+	},
+	x: 4.0d,
+	y: 9.5d,
+	text: [
+		"Ancient stone can be used to craft pillars. this will reduce the essentia required.",
+		"but slightly increase instability."
+	],
+	dependencies: [
+		"6db63413"
+	],
+	tasks: [{
+		uid: "7317bb4c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:stone_ancient"
+		}]
+	}]
+}

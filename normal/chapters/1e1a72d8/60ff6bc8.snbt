@@ -1,0 +1,106 @@
+{
+	title: "Elemental Tools",
+	x: 8.5d,
+	y: 8.5d,
+	text: [
+		"The Elemental Tools are a set of powerful, magical tools that harness the raw power of the four fundamental elements: Fire, Water, Earth, and Air. These tools are imbued with the essence of their respective elements, allowing you to manipulate the environment around you in ways that would otherwise be impossible. Whether you're crafting, mining, or adventuring, these tools can dramatically increase your efficiency, providing you with the means to interact with the world in a more dynamic and elemental manner.",
+		"",
+		"Each tool is linked to a specific element, and through careful Infusion and the use of Vis, you can create them with the appropriate magical enhancements. The Elemental Tools are not just mere instruments; they are conduits for the elements themselves, offering abilities that range from the creation of fire to the manipulation of air currents. Mastering these tools will greatly aid you in your thaumaturgical pursuits."
+	],
+	dependencies: [
+		"40e5a465"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "aab62e48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:elemental_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b80de544",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3bac7700",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:elemental_axe",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 2s
+				},
+				{
+					lvl: 1s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97913bd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:elemental_sword",
+			tag: {
+				infench: [{
+					lvl: 2s,
+					id: 5s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c97ca79f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:elemental_shovel",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 1s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

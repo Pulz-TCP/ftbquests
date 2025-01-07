@@ -1,0 +1,24 @@
+{
+	title: "Arcane Bore",
+	x: 12.0d,
+	y: 3.0d,
+	text: [
+		"The Arcane Bore is a marvel of thaumaturgical engineering—a semi-autonomous drilling machine powered by Vis and magic.",
+		" It can tunnel through stone, earth, and other materials with unparalleled efficiency, collecting valuable resources while leaving the debris behind. ",
+		"Whether you're mining for rare ores or creating a sprawling underground base, the Arcane Bore will save time and effort, all while demonstrating the limitless potential of thaumaturgy."
+	],
+	dependencies: [
+		"e43ee998"
+	],
+	tasks: [{
+		uid: "a36ab8f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:turret",
+			Damage: 2s
+		}]
+	}]
+}

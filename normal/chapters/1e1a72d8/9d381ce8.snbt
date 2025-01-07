@@ -1,0 +1,23 @@
+{
+	title: "Magic Hand Mirror",
+	x: 7.0d,
+	y: 1.5d,
+	text: [
+		"A portable version that can send items to the linked mirror."
+	],
+	dependencies: [
+		"6454a5ee"
+	],
+	tasks: [{
+		uid: "b998c213",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:hand_mirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,5 +1,11 @@
 {
 	title: "The Thaumatorium",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thaumcraft:thaumatorium"
+	},
 	x: 10.0d,
 	y: -0.5d,
 	text: [

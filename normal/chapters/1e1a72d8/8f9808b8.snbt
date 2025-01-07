@@ -1,6 +1,6 @@
 {
 	title: "Arcane Bellows",
-	x: 7.0d,
+	x: 9.0d,
 	y: 1.5d,
 	text: [
 		"The Arcane Bellows is a device that enhances the efficiency of alchemical and thaumaturgical processes by increasing airflow and magical energy flow. By attaching it to specific devices, such as the Essentia Smeltery, it accelerates their operation, reduces waste, and makes your magical systems more productive.",
@@ -8,7 +8,7 @@
 		"Harness the power of the Arcane Bellows to improve your workshop's efficiency and streamline your magical operations."
 	],
 	dependencies: [
-		"7fa37db3"
+		"b09493d6"
 	],
 	tasks: [{
 		uid: "52cdfe62",

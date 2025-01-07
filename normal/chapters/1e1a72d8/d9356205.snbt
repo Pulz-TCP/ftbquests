@@ -19,6 +19,9 @@
 		"Craft an Animation Core in the Arcane Workbench and infuse it with a specific function (e.g., Gather, Guard, or Harvest) using Essentia.",
 		"Assign the animation core to your golem and deploy it in the world."
 	],
+	dependencies: [
+		"d730c512"
+	],
 	tasks: [{
 		uid: "8b9ec5df",
 		type: "checkmark",

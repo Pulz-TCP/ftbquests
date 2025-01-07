@@ -1,7 +1,7 @@
 {
 	title: "The Thaumometer",
-	x: -1.0d,
-	y: 0.0d,
+	x: 1.0d,
+	y: 1.0d,
 	text: [
 		"The Thaumometer is one of the most essential tools for any aspiring thaumaturge. This small, handheld device allows you to peer into the magical nature of the world, revealing the latent Vis within objects, creatures, and even the environment itself. By using the Thaumometer, you can unlock valuable insights that are crucial for conducting research and advancing your mastery of thaumaturgy.",
 		"",

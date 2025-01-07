@@ -1,0 +1,23 @@
+{
+	title: "Automated Crossbow",
+	x: 11.0d,
+	y: 3.5d,
+	text: [
+		"Sometimes, a thaumaturge needs a bit of mundane protection, and the Automated Crossbow provides just that—a mechanical turret imbued with arcane energy. This device combines the precision of crossbow mechanics with magical automation, allowing it to detect and fire at hostile entities without your direct intervention. Whether defending your base from waves of invaders or securing your laboratory, the Automated Crossbow is an invaluable tool for ensuring your safety.",
+		"",
+		"Powered by redstone and augmented with magic, this contraption stands as a testament to the fusion of the arcane and the mechanical."
+	],
+	dependencies: [
+		"48a4786d"
+	],
+	tasks: [{
+		uid: "c4c50ef9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:turret"
+		}]
+	}]
+}
