@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	dependencies: [
+		"df51f407"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0108b885",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:foresteye"
+		}]
+	}]
+}

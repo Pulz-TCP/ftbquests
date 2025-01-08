@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "47bbb300",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:itemfinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 8.5d,
+	y: 2.5d,
+	dependencies: [
+		"a104c01d"
+	],
+	tasks: [{
+		uid: "6b5aeb04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:elfglass"
+		}]
+	}]
+}

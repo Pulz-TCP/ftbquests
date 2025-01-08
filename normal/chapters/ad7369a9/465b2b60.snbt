@@ -1,0 +1,22 @@
+{
+	x: 9.5d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"cea1f1b6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95235f55",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "rafflowsia"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 10.0d,
+	y: 1.5d,
+	dependencies: [
+		"d0642079"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e5360dcd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:dodgering"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

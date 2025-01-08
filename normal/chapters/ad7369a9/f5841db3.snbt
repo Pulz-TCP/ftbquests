@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 1.2d,
+	shape: "octagon",
+	dependencies: [
+		"98d775b8"
+	],
+	hide: true,
+	size: 0.6d,
+	optional: true,
+	tasks: [{
+		uid: "cc07cb6d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:forestdrum",
+			Damage: 2s
+		}]
+	}]
+}

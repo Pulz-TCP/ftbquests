@@ -1,0 +1,21 @@
+{
+	x: 14.0d,
+	y: -3.0d,
+	dependencies: [
+		"d0642079"
+	],
+	hide: true,
+	tasks: [{
+		uid: "53ea6f05",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "hyacidus"
+			}
+		}]
+	}]
+}

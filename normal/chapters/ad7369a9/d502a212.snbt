@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: 7.0d,
+	dependencies: [
+		"bc1a5c42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ed5bbffc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:sparkchanger"
+		}]
+	}]
+}

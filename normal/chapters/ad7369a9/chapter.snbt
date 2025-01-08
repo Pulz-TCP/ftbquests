@@ -1,0 +1,12 @@
+{
+	title: "Botania",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "botania:thirdeye"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "circle"
+}

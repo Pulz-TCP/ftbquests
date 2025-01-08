@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 0.4d,
+	dependencies: [
+		"091b9c37"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "80760cbe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:grasshorn"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}]
+}

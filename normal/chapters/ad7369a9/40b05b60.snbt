@@ -1,0 +1,35 @@
+{
+	title: "Petal Apothecary",
+	x: -1.0d,
+	y: -0.5d,
+	description: "Infuse Petals To Create New Magical Flowers",
+	text: [
+		"To craft flowers, the Petal Apothecary needs to be full of Water. "
+	],
+	dependencies: [
+		"017dd9ff"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "4efb7cef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "466a04ad",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:experience_bottle"
+		},
+		count: 3
+	}]
+}

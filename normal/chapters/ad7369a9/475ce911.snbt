@@ -1,0 +1,21 @@
+{
+	x: 17.5d,
+	y: -2.0d,
+	dependencies: [
+		"d0642079"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b247d875",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "medumone"
+			}
+		}]
+	}]
+}

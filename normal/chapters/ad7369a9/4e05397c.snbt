@@ -1,0 +1,68 @@
+{
+	title: "Mana enchanting",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "botania:enchanter"
+	},
+	x: 0.5d,
+	y: 4.5d,
+	dependencies: [
+		"df51f407"
+	],
+	hide: true,
+	tasks: [{
+		uid: "252b40fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		}],
+		count: 17L
+	},
+	{
+		uid: "bf5ca0ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "mysticFlowerWhite",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any mysticFlower"
+				}
+			}
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f3d8b8f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pylon"
+		}],
+		count: 6L
+	},
+	{
+		uid: "942c2ce3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lapis_block"
+		}]
+	}]
+}

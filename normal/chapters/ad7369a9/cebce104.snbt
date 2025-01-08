@@ -1,0 +1,20 @@
+{
+	x: 15.5d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0db9691"
+	],
+	tasks: [{
+		uid: "7ab39fc0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:supercloudpendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

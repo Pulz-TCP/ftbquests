@@ -1,0 +1,38 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "botania:gaiahead"
+	},
+	x: 9.5d,
+	y: 6.0d,
+	dependencies: [
+		"bc1a5c42",
+		"cea1f1b6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a8f6ad3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pylon",
+			Damage: 2s
+		}],
+		count: 4L,
+		consume_items: false
+	},
+	{
+		uid: "18ccc314",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:beacon"
+		}]
+	}]
+}

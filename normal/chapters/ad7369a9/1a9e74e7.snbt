@@ -1,0 +1,21 @@
+{
+	x: 13.0d,
+	y: -1.0d,
+	dependencies: [
+		"d0642079"
+	],
+	hide: true,
+	tasks: [{
+		uid: "57a11e7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "bergamute"
+			}
+		}]
+	}]
+}

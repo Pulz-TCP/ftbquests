@@ -1,0 +1,23 @@
+{
+	x: 15.5d,
+	y: 7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0db9691",
+		"e24c9433"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b17a3020",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"thaumicaugmentation:elytra_harness_augment": {}
+			},
+			id: "botania:flighttiara",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

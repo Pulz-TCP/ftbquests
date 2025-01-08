@@ -1,0 +1,18 @@
+{
+	x: 8.5d,
+	y: 5.5d,
+	dependencies: [
+		"a104c01d"
+	],
+	tasks: [{
+		uid: "547bea72",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 7s
+		}]
+	}]
+}

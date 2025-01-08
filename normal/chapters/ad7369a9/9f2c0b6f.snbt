@@ -1,0 +1,19 @@
+{
+	x: 13.5d,
+	y: 7.5d,
+	dependencies: [
+		"c0db9691"
+	],
+	tasks: [{
+		uid: "9fde08d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:unholycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

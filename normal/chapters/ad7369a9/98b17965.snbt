@@ -1,0 +1,21 @@
+{
+	x: 17.5d,
+	y: 5.5d,
+	dependencies: [
+		"c0db9691"
+	],
+	hide: true,
+	tasks: [{
+		uid: "08e96ba1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "shulk_me_not"
+			}
+		}]
+	}]
+}

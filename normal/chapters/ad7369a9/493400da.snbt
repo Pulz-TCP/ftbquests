@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"661bcd27"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a537c675",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:tinyplanetblock"
+		}]
+	}]
+}

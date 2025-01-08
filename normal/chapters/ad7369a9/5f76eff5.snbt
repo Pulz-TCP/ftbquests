@@ -1,0 +1,20 @@
+{
+	x: 11.5d,
+	y: 9.0d,
+	dependencies: [
+		"3b030967"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b798c360",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pinkinator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

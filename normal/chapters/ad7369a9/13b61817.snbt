@@ -1,0 +1,26 @@
+{
+	title: "The Mana Tablet",
+	x: 7.5d,
+	y: -1.0d,
+	description: "Store your mana on your player",
+	text: [
+		"This tablet can absorb mana from your pools whilst also giving mana to a pool. When mana is in the tablet and in your inventory it can 'buff' certain items."
+	],
+	dependencies: [
+		"86d7e739"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22b6bd25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Lexica Botania",
+	x: -4.0d,
+	y: -0.5d,
+	description: "Welcome To Botania",
+	text: [
+		"This book will give you all the knowlage to become a master!"
+	],
+	tasks: [{
+		uid: "be2c9d75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

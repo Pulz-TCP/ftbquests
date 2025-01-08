@@ -1,0 +1,41 @@
+{
+	title: "Wand Of The Forest",
+	x: 0.5d,
+	y: -2.5d,
+	description: "Control or examine your creations.",
+	text: [
+		"The Wand of the Forest is the general multi-use tool for a botanist. It has two modes: Bind / Function. Refer to the lexicon for more infomation."
+	],
+	dependencies: [
+		"a75c6f35"
+	],
+	tasks: [{
+		uid: "10c395d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9cfdd87f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingwood"
+		},
+		count: 6
+	}]
+}

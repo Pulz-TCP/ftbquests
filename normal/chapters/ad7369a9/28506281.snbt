@@ -1,0 +1,22 @@
+{
+	x: 5.2d,
+	y: 6.0d,
+	shape: "diamond",
+	dependencies: [
+		"bd2261ad"
+	],
+	hide: true,
+	size: 0.6d,
+	optional: true,
+	tasks: [{
+		uid: "51fce6c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:temperancestone"
+		}],
+		ignore_nbt: 1b
+	}]
+}

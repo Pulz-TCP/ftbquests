@@ -1,0 +1,35 @@
+{
+	title: "Tiny Potato",
+	x: 6.0d,
+	y: -3.5d,
+	description: "Your Personal Companion Cube",
+	text: [
+		"This block serves no real purpose other than being your No.1 supporter."
+	],
+	dependencies: [
+		"091b9c37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "52c3d2c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:tinypotato"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "daef27f4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:experience_bottle"
+		},
+		count: 6
+	}]
+}

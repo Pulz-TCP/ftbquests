@@ -1,0 +1,20 @@
+{
+	x: 9.0d,
+	y: 8.0d,
+	dependencies: [
+		"bc1a5c42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ada0faa1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:reachring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

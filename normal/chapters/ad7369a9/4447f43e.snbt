@@ -1,0 +1,48 @@
+{
+	title: "The Pure Daisy",
+	x: 0.5d,
+	y: -0.5d,
+	description: "Create Living Materials",
+	text: [
+		"The Pure Daisy is used for converting logs and Stone into Livingwood and Livingrock. Both are essential for progress."
+	],
+	dependencies: [
+		"40b05b60"
+	],
+	hide: true,
+	tasks: [{
+		uid: "162b7682",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "279c2d4c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:petal"
+		},
+		count: 4
+	},
+	{
+		uid: "2e9a8a59",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:experience_bottle"
+		},
+		count: 3
+	}]
+}

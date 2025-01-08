@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: 10.0d,
+	dependencies: [
+		"f2dd1300"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a326e70f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:lightlauncher"
+		}]
+	}]
+}

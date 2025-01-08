@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 3.5d,
+	dependencies: [
+		"3c64b84c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c4c4ecc4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:thundersword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

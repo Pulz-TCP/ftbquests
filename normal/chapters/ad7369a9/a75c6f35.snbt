@@ -1,0 +1,34 @@
+{
+	title: "Livingwood",
+	x: 0.5d,
+	y: -1.5d,
+	description: "One of the most influential materials",
+	text: [
+		"Livingwood is used as a common component in many influential crafting recipes and is an important resource."
+	],
+	dependencies: [
+		"4447f43e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3c24395",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingwood"
+		}]
+	}],
+	rewards: [{
+		uid: "9c1d6f78",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 9
+	}]
+}

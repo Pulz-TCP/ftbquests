@@ -1,0 +1,34 @@
+{
+	title: "The Mana Spreader",
+	x: 5.0d,
+	y: 0.0d,
+	description: "Transport mana from one place to another.",
+	text: [
+		"The Mana Spreader is used to transport Mana in Botania. The direction can be controlled using the Wand Of The Forest."
+	],
+	dependencies: [
+		"f695af66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "84537dc3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "79bad63a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 11.0d,
+	y: 1.5d,
+	dependencies: [
+		"d0642079"
+	],
+	hide: true,
+	tasks: [{
+		uid: "142b8d1e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:auraring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Livingwood Bow",
+	x: 6.0d,
+	y: -2.5d,
+	description: "Your First Living Bow",
+	text: [
+		"This bow can restore its own durability using mana from a mana tablet"
+	],
+	dependencies: [
+		"091b9c37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "08763653",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingwoodbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2ddbebc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:arrow"
+		},
+		count: 20
+	}]
+}

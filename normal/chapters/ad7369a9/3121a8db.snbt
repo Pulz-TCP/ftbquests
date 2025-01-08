@@ -1,0 +1,26 @@
+{
+	title: "Endoflame",
+	x: 4.5d,
+	y: -2.5d,
+	description: "Active Generating Mana",
+	text: [
+		"The Endoflame is a generating flower that consumes any 'fuel' dropped close in proximity. This type of basic flower will not wither or die."
+	],
+	dependencies: [
+		"091b9c37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "384d668c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}]
+}

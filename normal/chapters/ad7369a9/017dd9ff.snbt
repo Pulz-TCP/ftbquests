@@ -1,0 +1,38 @@
+{
+	title: "Flower Pouch",
+	x: -2.5d,
+	y: -0.5d,
+	description: "Organising Your Flowers",
+	text: [
+		"The Flower Pouch is a type of storage bag that carries Mystical Flowers. Having this item will free inventory space when collecting flowers."
+	],
+	dependencies: [
+		"98e5f50b"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "753f444d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: [],
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:flowerbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f172156",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:flower"
+		},
+		count: 2
+	}]
+}

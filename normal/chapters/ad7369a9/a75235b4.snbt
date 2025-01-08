@@ -1,0 +1,20 @@
+{
+	x: 17.0d,
+	y: 2.5d,
+	dependencies: [
+		"d0642079"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7aa06730",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:waterrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

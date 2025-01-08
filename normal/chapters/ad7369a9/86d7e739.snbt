@@ -1,0 +1,34 @@
+{
+	title: "The Mana Diamond",
+	x: 7.0d,
+	y: 0.0d,
+	description: "Using your most valuable resource to progress",
+	text: [
+		"Throw a Diamond into your mana pool and infuse it with mana."
+	],
+	dependencies: [
+		"091b9c37"
+	],
+	tasks: [{
+		uid: "c7ded8e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "88ae7635",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:blacklotus"
+		},
+		count: 4
+	}]
+}

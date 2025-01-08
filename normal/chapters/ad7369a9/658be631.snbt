@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: 10.0d,
+	dependencies: [
+		"bc1a5c42"
+	],
+	hide: true,
+	tasks: [{
+		uid: "abb14f29",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:gravityrod",
+			tag: {
+				dist: -1.0d,
+				ticksCooldown: 0,
+				ticksTillExpire: -54237,
+				target: -1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "The Mana Pool",
+	x: 3.5d,
+	y: -0.5d,
+	description: "Store your mana for later use",
+	text: [
+		"Mana stored in the pool can be used to power other blocks in Botania that require Mana to function, such as functional flowers."
+	],
+	dependencies: [
+		"97aef702"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c594efb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "e95aaf30",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:livingrock"
+		},
+		count: 5
+	}]
+}

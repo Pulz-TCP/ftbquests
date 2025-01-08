@@ -1,0 +1,37 @@
+{
+	title: "Pestle and Mortar",
+	x: -2.5d,
+	y: -1.5d,
+	description: "Flower Powders As Dyes",
+	text: [
+		"The Pestle and Mortar is used to crush Mystical Petals into Floral Powders which are able to be used in place of dyes being a substitue to mainstream dyes."
+	],
+	dependencies: [
+		"017dd9ff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a04158e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:pestleandmortar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02dfe798",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:flower",
+			Damage: 12s
+		},
+		count: 4
+	}]
+}

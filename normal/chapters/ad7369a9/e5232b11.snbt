@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"df51f407"
+	],
+	hide: true,
+	tasks: [{
+		uid: "738e61d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:craftinghalo",
+			tag: {
+				rotationBase: 613.8002f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

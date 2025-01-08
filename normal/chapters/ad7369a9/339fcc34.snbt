@@ -1,0 +1,78 @@
+{
+	title: "Manaweave Armour",
+	x: 6.0d,
+	y: -1.5d,
+	description: "You First Set Of Botania Armour",
+	text: [
+		"By throwing string into your mana pool, you can infuse it with mana. Using four of these infused string you can make Manaweave Cloth."
+	],
+	dependencies: [
+		"091b9c37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f03fa8ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaweavehelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9742ea82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaweavechest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b0be5adb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaweavelegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f684526",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaweaveboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f538059",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 22s
+		},
+		count: 12
+	},
+	{
+		uid: "7e330bc0",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}
