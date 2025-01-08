@@ -1,0 +1,20 @@
+{
+	x: 13.5d,
+	y: 2.5d,
+	dependencies: [
+		"c87e22e0"
+	],
+	tasks: [{
+		uid: "f7351e04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_zero_ring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

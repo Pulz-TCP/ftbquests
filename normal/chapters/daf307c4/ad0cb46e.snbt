@@ -1,0 +1,25 @@
+{
+	title: "The Mana tablet",
+	x: 14.0d,
+	y: 5.0d,
+	description: "Keeping Mana On Person",
+	text: [
+		"Using the Mana Tablet, ou can store mana in your inventory wich can be consumed by various tools and baubles!"
+	],
+	dependencies: [
+		"5684f3a4"
+	],
+	tasks: [{
+		uid: "c9fba712",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

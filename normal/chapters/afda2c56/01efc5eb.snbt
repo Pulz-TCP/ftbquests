@@ -1,0 +1,27 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"A Cutter can cut Plates into Wires.",
+		"",
+		"Wires can then be insulated by using Rubber.",
+		"",
+		"You will eventually be able to make a machine that will cut and hammer items more easily."
+	],
+	dependencies: [
+		"4681a0d6",
+		"4672b6e5"
+	],
+	tasks: [{
+		uid: "93e74403",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 14.0d,
+	y: 3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"750b2e8a",
+		"1d546fe6",
+		"3c1b1d2e",
+		"f21e9af8",
+		"64545422",
+		"a9b6b539"
+	],
+	tasks: [{
+		uid: "64401ceb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_arcana_ring",
+			tag: {
+				Mode: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

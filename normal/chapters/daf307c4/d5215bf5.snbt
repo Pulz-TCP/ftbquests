@@ -1,0 +1,21 @@
+{
+	title: "Mysitical Flowers",
+	x: 4.5d,
+	y: 5.0d,
+	description: "Explore Biomes To Find Flowers",
+	text: [
+		"Many biomes have mystical flowers. Gather a few to get stared with creating mana."
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5d2bf61d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:flower"
+		}],
+		count: 4L
+	}]
+}

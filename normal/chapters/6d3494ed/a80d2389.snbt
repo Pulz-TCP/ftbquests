@@ -1,0 +1,20 @@
+{
+	x: 14.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	dependencies: [
+		"bf1e231a"
+	],
+	tasks: [{
+		uid: "5650fcfc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_rm_armor_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

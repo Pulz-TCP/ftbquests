@@ -1,0 +1,25 @@
+{
+	title: "Pure Daisy",
+	x: 7.5d,
+	y: 5.0d,
+	description: "Your First And Most Important Flower!",
+	text: [
+		"This flower will turn logs & stone into new magical blocks you will need to create various new items in Botania."
+	],
+	dependencies: [
+		"9478f633"
+	],
+	tasks: [{
+		uid: "a2605b77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}]
+}

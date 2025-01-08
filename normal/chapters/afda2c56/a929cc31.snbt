@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	dependencies: [
+		"4e8807fe"
+	],
+	tasks: [{
+		uid: "3467752c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 0b
+			},
+			Damage: 4s
+		}],
+		count: 3L
+	}]
+}

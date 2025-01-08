@@ -1,0 +1,23 @@
+{
+	title: "Runic Altar",
+	x: 5.5d,
+	y: 8.0d,
+	description: "Creating Mana Infused Runes",
+	text: [
+		"Using the altar and various materials you can create Runes. Runes are used in varioius recipies, for example, Specilist flowers & baubles"
+	],
+	dependencies: [
+		"cdaaea77",
+		"34ecb9be"
+	],
+	tasks: [{
+		uid: "24b31c0a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:runealtar"
+		}]
+	}]
+}

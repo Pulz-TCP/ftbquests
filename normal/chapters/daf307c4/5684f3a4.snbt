@@ -1,0 +1,45 @@
+{
+	title: "Mana Infused Materials",
+	x: 12.5d,
+	y: 5.0d,
+	description: "Create these Materials.",
+	text: [
+		"Using the mana stored in your pool, you can infuse mana into diffrent materials to create a new product. "
+	],
+	dependencies: [
+		"34ecb9be",
+		"329cd426"
+	],
+	tasks: [{
+		uid: "b72a1aae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource"
+		}]
+	},
+	{
+		uid: "571710ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "e58967d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 2s
+		}]
+	}]
+}

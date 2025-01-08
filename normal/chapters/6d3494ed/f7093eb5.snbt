@@ -1,0 +1,18 @@
+{
+	x: 7.5d,
+	y: 5.0d,
+	dependencies: [
+		"57370ce8"
+	],
+	tasks: [{
+		uid: "c373897c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_divining_rod_1",
+			tag: {}
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 11.028061224489782d,
+	y: 0.6908163265306158d,
+	description: "Money = POWER",
+	dependencies: [
+		"f2caecde"
+	],
+	tasks: [{
+		uid: "97457e94",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 292s
+		}]
+	}]
+}

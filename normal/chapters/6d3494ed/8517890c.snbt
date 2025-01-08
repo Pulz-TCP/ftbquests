@@ -1,0 +1,17 @@
+{
+	x: 14.5d,
+	y: 5.0d,
+	dependencies: [
+		"9e21af51"
+	],
+	tasks: [{
+		uid: "985be1c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:nova_catalyst"
+		}]
+	}]
+}

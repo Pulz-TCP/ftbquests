@@ -1,0 +1,60 @@
+{
+	title: "Your first Macerator!",
+	x: 7.5d,
+	y: 5.5d,
+	text: [
+		"The Macerator is a powerful IC2 machine that crushes ores down into dust.",
+		"",
+		"Dust can then be smelted at a 1:1 dust to ingot ratio.",
+		"As you recieve more than 1 dust per ore, this allows you to double your ores very easily!"
+	],
+	dependencies: [
+		"b56ec41a"
+	],
+	tasks: [{
+		uid: "773401d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 47s
+		}]
+	}],
+	rewards: [{
+		uid: "93ff5717",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ore"
+		},
+		count: 5
+	},
+	{
+		uid: "98c32e11",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:resource",
+			Damage: 1s
+		},
+		count: 5
+	},
+	{
+		uid: "d713beb5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:resource",
+			Damage: 3s
+		},
+		count: 5
+	}]
+}

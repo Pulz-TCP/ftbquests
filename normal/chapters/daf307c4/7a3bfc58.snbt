@@ -1,0 +1,24 @@
+{
+	title: "Baubles!",
+	x: 8.5d,
+	y: 8.0d,
+	description: "Your First Bauble",
+	text: [
+		"Botania has many diffrent types of baubles; each one has a diffrent effect. This sash will allow you to walk up blocks automatically without jumping and also move at a faster speed!"
+	],
+	dependencies: [
+		"5ce64538"
+	],
+	tasks: [{
+		uid: "2b444ba3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:travelbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "IndustrialCraft 2",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ic2:te",
+		Damage: 3s
+	},
+	description: [
+		"IC2 is an industrial/technology based mod"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

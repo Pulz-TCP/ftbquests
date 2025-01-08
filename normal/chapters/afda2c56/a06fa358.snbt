@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 2.5d,
+	text: [
+		"An RE-Battery can store IC2's 'EU' energy. "
+	],
+	dependencies: [
+		"578d4408"
+	],
+	tasks: [{
+		uid: "fbd340a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:re_battery",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

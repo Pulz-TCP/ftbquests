@@ -1,0 +1,20 @@
+{
+	x: 9.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	dependencies: [
+		"2733dd99",
+		"ee48d5db",
+		"4e69691e"
+	],
+	tasks: [{
+		uid: "56bf8e0e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:rm_furnace"
+		}]
+	}]
+}

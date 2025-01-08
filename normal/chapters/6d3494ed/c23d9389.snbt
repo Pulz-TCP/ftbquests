@@ -1,0 +1,39 @@
+{
+	title: "Alchemical Coal",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "projecte:item.pe_fuel"
+	},
+	x: 2.0d,
+	y: -2.5d,
+	description: "Combine 4 Coal with a Philosphers Stone",
+	text: [
+		"Combine 4 coal and A Philospers Stone"
+	],
+	dependencies: [
+		"09e54e73"
+	],
+	tasks: [{
+		uid: "043a088e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_fuel"
+		}]
+	}],
+	rewards: [{
+		uid: "962265b8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal"
+		},
+		count: 16
+	}]
+}

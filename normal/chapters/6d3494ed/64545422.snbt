@@ -1,0 +1,19 @@
+{
+	x: 16.5d,
+	y: 2.5d,
+	dependencies: [
+		"c87e22e0"
+	],
+	tasks: [{
+		uid: "dbe43d4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "projecte:item.pe_black_hole"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

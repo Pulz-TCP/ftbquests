@@ -1,0 +1,22 @@
+{
+	title: "Petal Apothecary",
+	x: 6.0d,
+	y: 5.0d,
+	description: "Creating New Flowers!",
+	text: [
+		"Using the Apothecary you can create new various types of flowers. Each of these flowers have diffrent functions."
+	],
+	dependencies: [
+		"d5215bf5"
+	],
+	tasks: [{
+		uid: "890aada5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:altar"
+		}]
+	}]
+}

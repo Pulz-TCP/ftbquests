@@ -1,0 +1,26 @@
+{
+	title: "The Flower Pouch",
+	x: 4.5d,
+	y: 3.5d,
+	description: "Saving Inventory Space",
+	text: [
+		"The flower pouch is one of your most basic but important items. The pouch acts a a chest that will store all the diffrent types of flowers you colect over your Journey inside your inventory."
+	],
+	dependencies: [
+		"d5215bf5"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "d6bcc605",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: [],
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:flowerbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
