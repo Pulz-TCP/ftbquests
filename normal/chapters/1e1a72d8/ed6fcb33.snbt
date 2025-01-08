@@ -1,0 +1,31 @@
+{
+	title: "The Causality Collapser",
+	x: 4.5d,
+	y: -5.0d,
+	text: [
+		"You’ve delved into some of the most powerful and dangerous magics of thaumaturgy, but now, you are ready to unlock the most unsettling force of all: Causality. ",
+		"The Causality Collapser is a device of immense power, capable of manipulating the very fabric of time and causation itself. It can unravel events, reverse the outcome of magic, or even create paradoxes by collapsing and re-shaping the causes and effects of magical actions. However, such power comes at a great cost.",
+		"",
+		"The Causality Collapser is dangerous, unstable, and can have unintended consequences. Misuse of this device could tear holes in reality, distort time itself, or cause catastrophic Flux. To wield this power effectively, you must understand the fundamental laws of cause and effect — and how to manipulate them without breaking the universe.",
+		"",
+		"There is a few thing to take note of here:",
+		"First the Rifts needs to be max size to be able to drop primal pearl",
+		"Second if the rift is inside a claim there is a change to get nothing or you just lose the Causality Collapser as it works as a explosion.",
+		"Third you risk loosing a lot of sanety if you stay close to a rift colapsing and it might be a bad idé to carry a loot pet while closing rifts. "
+	],
+	dependencies: [
+		"1cc2c44e",
+		"d9356205",
+		"da7e1929"
+	],
+	tasks: [{
+		uid: "1cfcbbb2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:causality_collapser"
+		}]
+	}]
+}

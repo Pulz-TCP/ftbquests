@@ -1,0 +1,56 @@
+{
+	title: "The Greatwood Wand",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Your current wand has served you well, but as your thaumaturgical knowledge deepens, so too must your tools evolve. The Greatwood Wand is a significant upgrade, crafted from the magical wood of Greatwood trees. This wand boasts a higher Vis capacity, allowing you to perform more complex and powerful spells before needing to recharge.",
+		"",
+		"Creating the Greatwood Wand will require more than simple materials. You must first locate the rare and magical Greatwood Trees, gather their sturdy logs, and craft specialized caps to channel the wand’s energy. With this wand in hand, you’ll be better prepared to delve into the deeper mysteries of Thaumcraft.",
+		"",
+		"You can continue to use a iron cap´s or upgrade to a brass",
+		"",
+		"just remember that you need 5 of each of the primal vis crystals to craft the wand"
+	],
+	dependencies: [
+		"a3b09fba"
+	],
+	hide_text_until_complete: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "c1cb742b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "brass",
+				rod: "greatwood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "96c635be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "iron",
+				rod: "greatwood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "4e5f2531",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Purifying Bath Salts",
+	x: -1.0d,
+	y: -2.0d,
+	text: [
+		"When engaging in powerful thaumaturgical work, especially with volatile Essentia and Flux, the buildup of magical contamination can affect your physical and mental well-being. Purifying Bath Salts are a mystical concoction designed to cleanse both the body and mind, helping to counteract the harmful effects of Flux exposure, magical fatigue, and Essentia residue. These salts act as a magical purifier, restoring balance and aiding in recovery from prolonged magical experimentation.",
+		"",
+		"Add the Purifying Bath Salts to a arcane bath or other suitable aria with water.",
+		"Immerse yourself in the magical bath to begin the purification process.",
+		"The bath will shild from flux/Essentia contamination, and restore mental clarity."
+	],
+	dependencies: [
+		"3efe5c57"
+	],
+	tasks: [{
+		uid: "c4dccf59",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:bath_salts"
+		}]
+	}],
+	rewards: [{
+		uid: "31120092",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_wart"
+		}
+	}]
+}

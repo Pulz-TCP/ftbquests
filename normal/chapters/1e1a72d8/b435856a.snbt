@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"e4fa8089"
+	],
+	tasks: [{
+		uid: "1eb2a16b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:augment_builder_power",
+			tag: {
+				id: "thaumicaugmentation:strength_elemental"
+			}
+		}]
+	}]
+}

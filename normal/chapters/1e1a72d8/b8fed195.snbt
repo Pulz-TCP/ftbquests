@@ -1,0 +1,114 @@
+{
+	title: "Silverwood Wand",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"The Silverwood Wand represents a pinnacle of thaumaturgical craftsmanship, a tool of unparalleled power and versatility. ",
+		"Unlike the lesser wands made from Greatwood or mundane materials, the Silverwood Wand is crafted from Silverwood Logs, a rare and magical wood known for its exceptional ability to channel and purify Vis.",
+		"",
+		"Creating this wand is not a simple task — it requires a deep understanding of magic, access to rare resources, and mastery of the Infusion Altar. ",
+		"However, for those who succeed, the Silverwood Wand offers incredible capacity and efficiency, making it an indispensable tool for any advanced thaumaturge.",
+		"",
+		"To attach the caps to the silverwood rod you need all 6 primal vis in your arcane workbench the type off cap need different amount vis. ex copper need 15 thaum need 20 and void need 25 of each."
+	],
+	dependencies: [
+		"8d446836"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "8174af03",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "thaumium",
+				rod: "silverwood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "7afb47fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "void",
+				rod: "silverwood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "1fdb14b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "copper",
+				rod: "silverwood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "a4c479ea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "silver",
+				rod: "silverwood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "14a3411c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "iron",
+				rod: "silverwood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "0611b0ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicwands:item_wand",
+			tag: {
+				cap: "brass",
+				rod: "silverwood"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	dependencies: [
+		"d9356205"
+	],
+	tasks: [{
+		uid: "896d1b25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:mind"
+		}]
+	}]
+}

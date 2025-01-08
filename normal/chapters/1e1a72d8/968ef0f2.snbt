@@ -1,0 +1,24 @@
+{
+	title: "The Tattered Scrolls",
+	x: 7.5d,
+	y: -8.0d,
+	text: [
+		"Among your many discoveries, you’ve encountered peculiar, Tattered Scrolls, aged relics that radiate faint magical energy. These scrolls, found deep in ancient ruins, near Eldritch Rifts, or within the decaying remnants of Flux explosions, seem to hold fragments of forgotten knowledge. At first glance, they are indecipherable, their writing fragmented and alien. However, with the right tools and research, these scrolls may reveal secrets that could expand your understanding of thaumaturgy — or lead you down a dangerous path of forbidden magic.",
+		"",
+		"The Tattered Scrolls are thought to be remnants of an ancient civilization that once practiced advanced forms of thaumaturgy. Decoding them requires skill, patience, and a willingness to risk the corruption that often accompanies such knowledge."
+	],
+	dependencies: [
+		"2cbbaded"
+	],
+	tasks: [{
+		uid: "9f6499f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumicaugmentation:research_notes"
+		}],
+		ignore_nbt: 1b
+	}]
+}

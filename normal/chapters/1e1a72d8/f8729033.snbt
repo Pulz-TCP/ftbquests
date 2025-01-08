@@ -1,0 +1,22 @@
+{
+	title: "The Path of the Thaumaturge",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"You feel it — the strange hum of power vibrating through the world around you. A peculiar pull, like a thread tugging at the edge of your mind, whispers of hidden forces and unseen energies. This is no ordinary magic. This is the realm of Thaumaturgy: the art of shaping and harnessing the primal aspects of reality itself.",
+		"",
+		"But beware — power comes at a cost. The more you delve into this mystical path, the more you will uncover its beauty... and its dangers. The balance of the world is delicate, and your experiments may tip the scales.",
+		"",
+		"To begin, you must craft a Thaumonomicon, a book that will serve as your guide to unlocking the secrets of this arcane art. Seek the materials to create Salis Mundus and an ordinary Bookshelf — the starting tools of any aspiring thaumaturge. Channel your Salis Mundus into the bookshelf, and let the mysteries of Thaumcraft unveil themselves before you."
+	],
+	tasks: [{
+		uid: "856197af",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}
+	}]
+}

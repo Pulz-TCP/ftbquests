@@ -1,0 +1,25 @@
+{
+	title: "The Thaumatorium",
+	x: 10.0d,
+	y: -0.5d,
+	text: [
+		"The Thaumatorium is the ultimate tool for automating alchemical crafting. As your expertise in alchemy deepens, the repetitive nature of managing Essentia and crafting materials manually can become a burden.",
+		" Unlike the humble Crucible, the Thaumatorium allows you to craft complex alchemical recipes with precision and efficiency, eliminating the risk of waste or instability. With multiple input slots and automatic Essentia management, this device can handle even the most advanced recipes, making it an indispensable addition to any thaumaturge's workshop.",
+		"",
+		"By mastering the Thaumatorium, you can scale your alchemical operations, crafting potions, components, and materials effortlessly while focusing on deeper magical research."
+	],
+	dependencies: [
+		"d2d41229",
+		"0bdcc06d"
+	],
+	tasks: [{
+		uid: "44df8ed4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:metal_alchemical"
+		}]
+	}]
+}

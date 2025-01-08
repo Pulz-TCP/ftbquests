@@ -1,0 +1,30 @@
+{
+	title: "The Alchemist’s Crucible",
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"Your studies into the arcane have led you to one of the oldest and most fundamental branches of magic: Alchemy. Through careful manipulation of primal aspects, you can transform materials, refine resources, and create powerful substances. To practice alchemy, you’ll need a proper tool — the Crucible, a cauldron infused with magic to harness the raw power of transformation.",
+		"",
+		"To craft the Crucible, you must first find or craft a standard Cauldron. Once placed, sprinkle it with Salis Mundus, the mysterious powder imbued with the primal aspects of creation. This will awaken the cauldron to its arcane potential, transforming it into a Crucible capable of alchemical feats.",
+		"",
+		"With your Crucible prepared, you’ll need water and a heat source, as well as a basic understanding of primal aspects. The process can be dangerous, however — mishandling these forces may result in flux, a chaotic residue that can corrupt the land around you. Proceed with caution."
+	],
+	dependencies: [
+		"d730c512"
+	],
+	tasks: [{
+		uid: "719d6464",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "c7ea340f",
+		type: "xp",
+		xp: 100
+	}]
+}

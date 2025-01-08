@@ -1,0 +1,34 @@
+{
+	title: "Sanitizing Soap",
+	x: -1.0d,
+	y: -3.0d,
+	text: [
+		"As a thaumaturge, you frequently interact with powerful and sometimes dangerous substances—whether it's volatile Essentia, unstable Flux, or even strange magical energies. ",
+		"The Sanitizing Soap is a specially crafted potion designed to cleanse not only the magical residue that builds up on your tools and skin but also to help you handle magical materials without the risk of contamination or adverse effects. This soap is enchanted to neutralize minor magical impurities and reduce Flux exposure, helping you maintain both physical and mental health while engaging in your research.",
+		"",
+		"it is best to use wile under flux shilding from bath salts or potion of sane thoughts"
+	],
+	dependencies: [
+		"e4894fd4"
+	],
+	tasks: [{
+		uid: "0776266e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:sanity_soap"
+		}]
+	}],
+	rewards: [{
+		uid: "675a0328",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:sanity_soap"
+		}
+	}]
+}

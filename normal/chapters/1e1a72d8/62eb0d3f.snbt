@@ -1,0 +1,37 @@
+{
+	title: "Focal Manipulator",
+	x: 5.5d,
+	y: 3.0d,
+	text: [
+		"The Focal Manipulator is a crucial device for advanced thaumaturges seeking to enhance and fine-tune their Casting Focus. While a Casting Focus allows you to direct and channel your spells, the Focal Manipulator offers the ability to modify and amplify these focuses, allowing for greater versatility and power in your spellcasting. By adjusting the properties of your Casting Focus, you can alter how spells are cast, increase their potency, and even create new types of magical effects.",
+		"",
+		"By unlocking the secrets of the Focal Manipulator, you will gain the ability to customize your spellcasting tools to suit your specific needs, turning you into a true master of magical manipulation.",
+		"",
+		"Use the Focal Manipulator",
+		"",
+		"Right-click the Focal Manipulator to open its interface.",
+		"Place your Casting Focus into the manipulator’s input slot.",
+		"The Focal Manipulator interface will present options to modify the Casting Focus. You will be able to:",
+		"",
+		"Alter Focus Type: Change your focus from one type to another (scatter and split).",
+		"Adjust Spell Power: Increase or decrease the power of spells cast through the focus.",
+		"Modify Range: Adjust how far the focus can cast its spell.",
+		"Change Effects: Modify the effects of the focus, such as adding new spell effects like Air or healing.",
+		"it is poseble to chain spelleffects. ",
+		"",
+		"it is important to remember that there is a cost in both experience and vis as well as vis crystals."
+	],
+	dependencies: [
+		"01417876"
+	],
+	tasks: [{
+		uid: "0b9085ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thaumcraft:wand_workbench"
+		}]
+	}]
+}

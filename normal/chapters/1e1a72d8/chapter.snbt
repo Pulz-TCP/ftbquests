@@ -1,0 +1,12 @@
+{
+	title: "Thaumcraft",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thaumcraft:thaumonomicon"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
