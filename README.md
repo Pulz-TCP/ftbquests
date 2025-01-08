@@ -1,7 +1,7 @@
 | Quest/mod | Index | Who's working on it? |
 | ------------- | ------------- | ------------- |
 | IndustrialCraft 2 | afda2c56 | [@Pulz-TCP](https://github.com/Pulz-TCP) |
-| Botania | daf307c4 | [@radioactivsnake](https://github.com/radioactivsnake) |
+| Botania | ad7369a9 | [@radioactivsnake](https://github.com/radioactivsnake) |
 | Thermal Series | 6d3edbcc | [@conkCreets](https://github.com/conkCreets) |
 | ProjectE | 6d3494ed | [@Kody1964](https://github.com/Kody1964) |
 | Thaumcraft | 1e1a72d8 | [@Mads-bs](https://github.com/Mads-bs) |
