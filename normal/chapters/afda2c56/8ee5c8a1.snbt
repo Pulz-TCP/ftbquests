@@ -2,6 +2,7 @@
 	title: "Go Spelunking",
 	x: 4.5d,
 	y: 0.0d,
+	shape: "hexagon",
 	description: "You'll need some basic items to get started",
 	text: [
 		"It is now a good time to start delving into some caves and gather materials.",
