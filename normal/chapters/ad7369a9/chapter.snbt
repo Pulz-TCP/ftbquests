@@ -4,8 +4,12 @@
 		ForgeCaps: {
 			"customnpcs:itemscripteddata": {}
 		},
-		id: "botania:thirdeye"
+		id: "botania:lexicon",
+		tag: {}
 	},
+	description: [
+		"Harness Magic From Flowers"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "circle"

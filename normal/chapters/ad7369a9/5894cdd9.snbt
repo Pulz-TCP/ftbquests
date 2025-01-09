@@ -22,5 +22,29 @@
 				type: "hydroangeas"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "a959c6fb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}
+	},
+	{
+		uid: "8bc4cf8b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:experience_bottle"
+		},
+		count: 2
 	}]
 }

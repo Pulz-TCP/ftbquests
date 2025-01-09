@@ -1,11 +1,13 @@
 {
+	title: "Terrasteel Ingot",
 	x: 7.0d,
 	y: 4.0d,
+	description: "Creating More Advanced Equipment",
+	text: [
+		"Terrasteel opens many progressive possibilities such as upgrading your defences, weapons & baubles. It also will allow production of a portal for trade with the elves who have long departed from your realm."
+	],
 	dependencies: [
-		"9c835ab3",
-		"eb9d8588",
 		"df51f407",
-		"86d7e739",
 		"933e65b9"
 	],
 	hide: true,

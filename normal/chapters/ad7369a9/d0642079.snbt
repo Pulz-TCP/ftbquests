@@ -1,6 +1,11 @@
 {
+	title: "The Runic Altar",
 	x: 8.5d,
 	y: 0.5d,
+	description: "Creating Magic Runes Essential For Making Powerful Products",
+	text: [
+		"The Runic Altar allows you to combine various components into runes. The produced runes can be used in many different crafting recipes creating powerful items or functional flowers."
+	],
 	dependencies: [
 		"9c835ab3",
 		"86d7e739"
@@ -16,5 +21,10 @@
 			},
 			id: "botania:runealtar"
 		}]
+	}],
+	rewards: [{
+		uid: "f53fd6f6",
+		type: "choice",
+		table: 1
 	}]
 }
