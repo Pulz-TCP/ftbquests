@@ -4,7 +4,7 @@
 	y: 4.0d,
 	description: "Creating More Advanced Equipment",
 	text: [
-		"Terrasteel opens many progressive possabilitys such as upgrading your defences, weapons & baubles. It also will allow production of a portal for trade with the elves who have long departed from your realm."
+		"Terrasteel opens many progressive possibilities such as upgrading your defences, weapons & baubles. It also will allow production of a portal for trade with the elves who have long departed from your realm."
 	],
 	dependencies: [
 		"df51f407",
