@@ -1,9 +1,16 @@
 {
+	title: "Terrestrial Agglomeration Plate",
 	x: 7.0d,
 	y: 2.0d,
+	description: "Working Towards Producing Terrasteel",
+	text: [
+		"This plate will allow you to infuse your most valuable materials into a superior ingot. This new ingot could even lead you towards trading with another dimention."
+	],
 	dependencies: [
+		"9c835ab3",
 		"d0642079",
-		"df51f407"
+		"df51f407",
+		"86d7e739"
 	],
 	hide: true,
 	tasks: [{
@@ -15,5 +22,29 @@
 			},
 			id: "botania:terraplate"
 		}]
+	}],
+	rewards: [{
+		uid: "90ddd1ce",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 4s
+		},
+		count: 18
+	},
+	{
+		uid: "a4767f7b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:blacklotus",
+			Damage: 1s
+		},
+		count: 2
 	}]
 }

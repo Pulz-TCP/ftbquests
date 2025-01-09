@@ -1,6 +1,11 @@
 {
+	title: "The Mana Pearl",
 	x: 7.0d,
 	y: 1.0d,
+	description: "Using a substitute to replace diamond",
+	text: [
+		"In most cases a mana pearl can be used in place of a mana diamond. But the mana pearl is also an important crafting material."
+	],
 	dependencies: [
 		"091b9c37"
 	],
@@ -14,5 +19,16 @@
 			id: "botania:manaresource",
 			Damage: 1s
 		}]
+	}],
+	rewards: [{
+		uid: "611753a0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:blacklotus"
+		},
+		count: 2
 	}]
 }

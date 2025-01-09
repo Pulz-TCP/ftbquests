@@ -22,5 +22,17 @@
 				type: "endoflame"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "5966b3d6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal",
+			Damage: 1s
+		},
+		count: 16
 	}]
 }

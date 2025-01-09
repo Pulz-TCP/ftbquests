@@ -1,0 +1,42 @@
+{
+	title: "test botania",
+	loot_size: 1,
+	rewards: [{
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_pearl"
+		},
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_pearl",
+			tag: {
+				display: {
+					Name: "2x Ender Pearl"
+				}
+			}
+		}
+	},
+	{
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond",
+			tag: {
+				display: {
+					Name: "1x Diamond"
+				}
+			}
+		}
+	}]
+}

@@ -1,6 +1,11 @@
 {
+	title: "Band Of Mana",
 	x: 7.5d,
 	y: -2.0d,
+	description: "A mana tablet on your finger",
+	text: [
+		"The Band of Mana is a bauble. When worn, it is able to store Mana just like the Mana Tablet but doesn't take up an inventory slot."
+	],
 	dependencies: [
 		"13b61817"
 	],
@@ -17,5 +22,27 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c401f40",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:experience_bottle"
+		},
+		count: 2
+	},
+	{
+		uid: "17574e82",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:blacklotus"
+		},
+		count: 2
 	}]
 }

@@ -1,6 +1,11 @@
 {
+	title: "Sparks",
 	x: 7.0d,
 	y: 3.0d,
+	description: "The Most Efficient Way To Transfer Mana",
+	text: [
+		"Mana spreaders will do the job for most things but will struggle to keep up supplying devices that require large amounts of mana. This is where Sparks come in handy, when placed atop both the device you want to supply and your mana pools, the spark will rapidly transfer mana towards said device."
+	],
 	dependencies: [
 		"933e65b9"
 	],
@@ -14,5 +19,37 @@
 			},
 			id: "botania:spark"
 		}]
+	}],
+	rewards: [{
+		uid: "cdc3cb4d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource"
+		}
+	},
+	{
+		uid: "883fca0c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "85ce5803",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "botania:manaresource",
+			Damage: 2s
+		}
 	}]
 }
