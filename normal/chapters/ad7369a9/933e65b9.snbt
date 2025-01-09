@@ -4,7 +4,7 @@
 	y: 2.0d,
 	description: "Working Towards Producing Terrasteel",
 	text: [
-		"This plate will allow you to infuse your most valuable materials into a superior ingot. This new ingot could even lead you towards trading with another dimention."
+		"This plate will allow you to infuse your most valuable materials into a superior ingot. This new ingot could even lead you towards trading with another dimension."
 	],
 	dependencies: [
 		"9c835ab3",
