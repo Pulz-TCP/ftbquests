@@ -1,0 +1,26 @@
+{
+	title: "Metal Forming",
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		"The Metal Former allows you to shape metal into plates, wires, and casings without using hammers.",
+		"",
+		"Craft 1 Metal Former",
+		"Create 8 Iron Plates"
+	],
+	dependencies: [
+		"6435f09a",
+		"1781bf52"
+	],
+	tasks: [{
+		uid: "df376a60",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 55s
+		}]
+	}]
+}

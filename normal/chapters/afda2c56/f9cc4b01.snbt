@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 5.0d,
+	dependencies: [
+		"869a484f"
+	],
+	tasks: [{
+		uid: "84c9427c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "advanced_machines:machines"
+		}]
+	}]
+}

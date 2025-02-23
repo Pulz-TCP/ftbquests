@@ -1,0 +1,59 @@
+{
+	title: "Sticky Situation",
+	x: 2.5d,
+	y: -0.5d,
+	text: [
+		"Rubber is essential for cables and machines. ",
+		"",
+		"Use a Tree Tap to extract Sticky Resin from rubber trees."
+	],
+	dependencies: [
+		"bc51f417"
+	],
+	tasks: [{
+		uid: "0cb8e416",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "55277c86",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:misc_resource",
+			Damage: 4s
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "52b63a9b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:resource",
+			Damage: 1s
+		},
+		count: 4
+	},
+	{
+		uid: "89ca7122",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bucket"
+		}
+	}]
+}

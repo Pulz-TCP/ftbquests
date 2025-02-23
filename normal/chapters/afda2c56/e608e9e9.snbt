@@ -1,0 +1,26 @@
+{
+	title: "Extracting Resources",
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		"An Extractor helps maximize rubber output from Sticky Resin.",
+		"",
+		"Craft 1 Extractor",
+		"Process 12 Sticky Resin into Rubber"
+	],
+	dependencies: [
+		"3350472b",
+		"47e16cfa"
+	],
+	tasks: [{
+		uid: "6c7168ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 45s
+		}]
+	}]
+}

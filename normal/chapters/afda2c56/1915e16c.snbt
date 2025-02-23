@@ -1,0 +1,37 @@
+{
+	title: "Compressing for Strength",
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"Compressing materials creates stronger resources for advanced machines.",
+		"",
+		"Craft 1 Compressor",
+		"Compress 8 Coal into Compress Coal Balls"
+	],
+	dependencies: [
+		"e608e9e9"
+	],
+	tasks: [{
+		uid: "061b0575",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 43s
+		}]
+	},
+	{
+		uid: "1a566c3a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:crafting",
+			Damage: 17s
+		}],
+		count: 8L
+	}]
+}

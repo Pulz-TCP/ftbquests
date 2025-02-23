@@ -1,0 +1,25 @@
+{
+	title: "Harnessing the Sun",
+	x: 0.5d,
+	y: 3.5d,
+	text: [
+		"Solar power is a clean, renewable way to generate EU. Start with a basic Solar Panel.",
+		"",
+		"Craft 1 Solar Panel",
+		"",
+		"Connect the Solar Panel to your energy grid using Copper Cables.",
+		"",
+		"Make sure that it connects first to your energy storage (e.g BatBox) before going into the rest of your energy grid."
+	],
+	tasks: [{
+		uid: "d6bad307",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 8s
+		}]
+	}]
+}

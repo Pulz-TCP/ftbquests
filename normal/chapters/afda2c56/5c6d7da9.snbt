@@ -1,0 +1,28 @@
+{
+	title: "Welcome to IndustrialCraft 2!",
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"This mod introduces complex machines, power systems, and automation. ",
+		"",
+		"In this questline, you'll progress from basic tools to advanced technology.",
+		"",
+		" Let's start with the fundamentals!"
+	],
+	tasks: [{
+		uid: "d93fde96",
+		type: "checkmark",
+		title: "Welcome to IndustrialCraft 2!"
+	}],
+	rewards: [{
+		uid: "ffa7e9e0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bread"
+		},
+		count: 4
+	}]
+}

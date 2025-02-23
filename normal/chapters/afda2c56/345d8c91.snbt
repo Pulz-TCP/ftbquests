@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "3005003e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:resource",
+			Damage: 13s
+		}]
+	}]
+}

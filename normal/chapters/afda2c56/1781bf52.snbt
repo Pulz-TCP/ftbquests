@@ -1,0 +1,50 @@
+{
+	title: "Doubling Your Ores",
+	x: 2.0d,
+	y: 1.5d,
+	text: [
+		"With power established, it's time to double your ore output. ",
+		"The Macerator grinds ores into dust, which can be smelted into ingots.",
+		"",
+		"Craft 1 Macerator",
+		"Grind 8 Iron Ore into Iron Dust"
+	],
+	dependencies: [
+		"463b9574"
+	],
+	tasks: [{
+		uid: "19e8c4c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 47s
+		}]
+	},
+	{
+		uid: "a96a1761",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:dust",
+			Damage: 8s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "bbfb3ff5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:re_battery",
+			tag: {},
+			Damage: 26s
+		}
+	}]
+}

@@ -1,0 +1,80 @@
+{
+	title: "Finding the Basics",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"To begin with IC2, you'll need basic resources found in the world. ",
+		"",
+		"Let's gather them!"
+	],
+	dependencies: [
+		"5c6d7da9"
+	],
+	tasks: [{
+		uid: "32b5f40c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:ore"
+		}],
+		count: 16L
+	},
+	{
+		uid: "49b55ddb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:ore",
+			Damage: 1s
+		}],
+		count: 16L
+	},
+	{
+		uid: "4c154812",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ore"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f72f9ff7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "e2a08883",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:misc_resource",
+			Damage: 4s
+		},
+		count: 8
+	},
+	{
+		uid: "36dc1e5d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal"
+		},
+		count: 8
+	}]
+}

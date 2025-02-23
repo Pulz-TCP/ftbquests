@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 5.0d,
+	dependencies: [
+		"c382ec86",
+		"f9cc4b01"
+	],
+	tasks: [{
+		uid: "ccb332fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 56s
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Copper Connections",
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"Copper cables are the foundation of IC2's energy system. Let's make some!"
+	],
+	dependencies: [
+		"6435f09a"
+	],
+	tasks: [{
+		uid: "fb1657aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 1b
+			}
+		}],
+		count: 12L
+	}]
+}

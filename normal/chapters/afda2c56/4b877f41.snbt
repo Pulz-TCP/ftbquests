@@ -1,0 +1,25 @@
+{
+	title: "Powering Progress",
+	x: 6.5d,
+	y: -0.5d,
+	text: [
+		"With a power source ready, it's time to store energy.",
+		"",
+		"A BatBox is the simplest energy storage block."
+	],
+	dependencies: [
+		"1cb2deba"
+	],
+	tasks: [{
+		uid: "80bafe9d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			tag: {},
+			Damage: 72s
+		}]
+	}]
+}

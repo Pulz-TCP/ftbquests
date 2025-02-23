@@ -1,0 +1,35 @@
+{
+	title: "First Power Source",
+	x: 5.5d,
+	y: -1.5d,
+	text: [
+		"Before you can power machines, you'll need a Generator.",
+		"",
+		"This will burn coal or other fuels to produce EU (Energy Units)."
+	],
+	dependencies: [
+		"4f9c5136"
+	],
+	tasks: [{
+		uid: "de24c9af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "0f3ed322",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal"
+		},
+		count: 4
+	}]
+}

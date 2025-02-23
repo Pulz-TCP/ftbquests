@@ -1,0 +1,60 @@
+{
+	title: "Crafting Essentials",
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"Time to make your first IC2 tools! ",
+		"",
+		"Start with an IC2 Wrench for safely removing machines and a Hammer for crafting plates."
+	],
+	dependencies: [
+		"47e16cfa"
+	],
+	tasks: [{
+		uid: "49f38128",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:wrench_new"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "383f0ede",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f9732d9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 129s
+		},
+		count: 2
+	},
+	{
+		uid: "706002ba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		},
+		count: 2
+	}]
+}

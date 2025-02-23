@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	dependencies: [
+		"345d8c91"
+	],
+	tasks: [{
+		uid: "846ff22b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ic2:te",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "b9eed4f6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
